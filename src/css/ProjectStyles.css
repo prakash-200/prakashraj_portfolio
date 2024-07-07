@@ -1,0 +1,47 @@
+
+.pjt{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.pjt-name{
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: xx-large;
+    font-family: "Allura", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.db-btn{
+    padding-top: 30px;
+}
+
+.abt-col{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end
+}
+
+.abt-col p{
+    font-weight: bolder;
+    font-size: 70px;
+    opacity: .4;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 415px)  {
+    .abt-col p{
+        font-size: 40px;
+    }
+    
+    .db-arrow-btn{
+        opacity: 1;
+    }
+}
+
