@@ -9,6 +9,7 @@ import resume from '../src/assets/ProjectImages/resume.png'
 import yamaha from '../src/assets/ProjectImages/yamaha.png'
 import portfolio from '../src/assets/ProjectImages/portfolio.png'
 import oppo from '../src/assets/ProjectImages/Oppo.png'
+import google from '../src/assets/ProjectImages/google.png'
 
 const images = [
     calc,
@@ -20,7 +21,8 @@ const images = [
     resume,
     yamaha,
     portfolio,
-    oppo
+    oppo,
+    google
 ]
 
 export default images;

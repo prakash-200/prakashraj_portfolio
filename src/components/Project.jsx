@@ -42,6 +42,9 @@ const cards = [
     { frontContent: <div><h1>Oppo E-Store</h1><p>The Oppo e-commerce application is a sophisticated platform developed to facilitate the purchase of Oppo brand mobile phones. Built using the MERN stack (MongoDB, Express.js, React, and Node.js)</p></div>, 
       backContent: <div><img src={images[9]} /><center><hr /></center><p>#MERN &nbsp; #Bootstrap</p><div className='pjt-card-btn'><button><a href='https://github.com/prakash-200/OPPO-ECommerce' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/OPPO-ECommerce' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div> },
  
+    { frontContent: <div><h1>Google Clone</h1><p>Developed a Google search engine clone using React and integrated with the Google API.</p></div>, 
+      backContent: <div><img src={images[10]} /><center><hr /></center><p>React &nbsp; #Tailwind CSS &nbsp; #Google API</p><div className='pjt-card-btn'><button><a href='https://prakashrajgc.web.app/' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/OPPO-ECommerce' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div> },
+ 
 ];
 
 

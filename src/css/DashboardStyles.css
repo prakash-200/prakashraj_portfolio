@@ -1,390 +1,42 @@
-/* Dashboard Start */
-html,
-body {
-  height: 100;
+*{
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  overflow-y: hidden; /* Prevent horizontal scrolling */
   box-sizing: border-box;
-  background-color: #fcf6f4;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-.db-page {
+.db-page{
   height: 100vh;
   width: 100vw;
 }
 
-.db-name {
-  margin-left: 30px;
-  margin-top: 30px;
+.db-name{
   font-family: "Allura", cursive;
   font-weight: 800;
   font-style: normal;
-  color: black;
-}
-
-.db-name2 {
-  margin-left: 30px;
-  margin-top: 30px;
-  font-family: "Allura", cursive;
-  font-weight: 800;
-  font-style: normal;
-  color: white;
-}
-
-.db-resume-btn {
-  margin-top: 30px;
-  border: none;
-  background-color: transparent;
-  font-size: large;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.1s ease;
-  letter-spacing: 3px;
-}
-
-.db-arrow-btn {
-  margin-top: 30px;
-  border-radius: 50px;
-  background-color: transparent;
-  border: 1px solid black;
-  padding: 4px 7px;
-}
-
-.db-arrow {
   font-size: xx-large;
 }
 
-.db-project {
-  margin-left: 30px;
-  border: none;
-  background-color: transparent;
-  font-size: large;
-  font-weight: 600;
-  position: absolute;
-  top: 30%;
-  writing-mode: vertical-rl;
-  transition: 0.1s ease;
-  letter-spacing: 3px;
+.db-spin-btn{
+  font-size: 120px;
 }
 
-.db-link-btn {
-  margin-left: 30px;
-  border: none;
-  font-size: xx-large;
+.db-vertical{
+  writing-mode: vertical-lr;
 }
 
-.db-black{
-  color: black;
+.db-footer{
+  height: 39%;
 }
 
-.db-link {
-  position: absolute;
-  top: 70%;
-}
-
-.db-line {
-  margin-left: 45px;
-  color: black;
-  writing-mode: vertical-rl;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.db-rot {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
-
-.db-rot button {
-  border: none;
-  background-color: transparent;
-}
-
-.db-rot-icon {
-  font-size: 900%;
-  color: #000000;
-}
-
-.db-down-btn {
-  padding-top: 540px;
-}
-
-.db-down-btn button {
-  border: none;
-  background-color: transparent;
-}
-
-.db-info{
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  width: 87vw;
-}
-
-.cd{
-  width: 800px;
-}
-
-.cd-left{
-  width: 50%;
-  padding: 30px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-bottom: 2px solid white;
-}
-
-.cd-left p:first-child{
-  font-size: 40px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: bolder;
-  line-height: 45px;
-}
-
-.cd-left p:nth-of-type(2){
-  font-size: x-large;
-  line-height: 5%;
-  font-weight: bolder;
-}
-
-.cd-right{
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-.cd-right img{
-  width: 100%;
-  height: 120%;
-  position: relative;
-  bottom: 80px;
-}
-
-.db-resume-btn:hover,
-.db-project:hover {
-  transform: scale(1.1);
-}
-
-.db-arrow-btn:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.black{
-    color: black;
-}
-
-@media only screen and (max-width: 800px) {
-  .db-page2 {
-    height: 50%;
-    width: 100%;
-    position: fixed;
-    right: 0;
-    background-color: black;
-    color: #ffff;
-    transition: background-color 0.7s ease;
+@media only screen and (max-width: 576px) {
+  .font-sm {
+      font-size: 16px;
+      font-weight: 500;
   }
+}
 
-  .clr {
-    color: white;
+@media only screen and (min-width: 576px) {
+  .font-lg {
+      font-size: 23px;
   }
-
-  .clr2 {
-    color: white;
-  }
-
-  .db-arrow-btn {
-    background-color: #ffff;
-  }
-
-  .db-links {
-    position: absolute;
-    top: 140%;
-  }
-
-  .db-line {
-    color: black;
-  }
-
-  .db-rot-btn{
-    opacity: 0;
-    pointer-events: none; 
-  }
-
-.db-back-icon{
-  opacity: 0;
 }
-
-.db-back-icon2{
-  font-size: 70px;
-    position: absolute;
-    bottom: 10%;
-    right: -640px;
-    border: none;
-}
-
-.db-info{
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  position: absolute;
-  left:  30%;
-}
-
-.cd{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-  width: 900px;
-  height: 22px;
-}
-
-.cd-left{
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-bottom: none;
-}
-
-.cd-left p:first-child{
-  font-size: larger;
-}
-
-.cd-left p:nth-child(2){
-  font-size: larger;
-}
-
-.cd-left p:nth-child(3){
-  font-size: x-small;
-}
-
-.cd-right{
-  border-top: none;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  height: 290px;
-  width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cd-right img{
-  width: 60%;
-  height: 90%;
-}
-
-}
-
-@media only screen and (min-width: 801px) {
-  .db-page3 {
-    height: 100vh;
-    width: 50%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: black;
-    color: #ffff;
-    transition: background-color 0.7s ease;
-  }
-
-  .clr3 {
-    color: black;
-  }
-
-  .db-arrow-btn {
-    background-color: #ffff;
-  }
-
-  .db-content {
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .db-line2 {
-    color: #ffff;
-    padding-left: 0px;
-  }
-
-  .db-link-btn {
-    color: #ffff;
-    background-color: #0000;
-    font-size: xx-large;
-  }
-
-  .db-back-icon2{
-    font-size: 70px;
-    position: absolute;
-    bottom: 10%;
-    right: -640px;
-    border: none;
-}
-
-.db-back-icon{
-  opacity: 0;
-}
-
-.black2{
-  color: white;
-}
-
-.db-black2{
-  color: white;
-}
-
-.clr{
-  color: white;
-}
-
-.cd{
-  display: flex;
-  flex-direction: row;
-}
-
-}
-
-@media only screen and (max-width:415px) {
-
-  .db-back-icon2{
-    font-size: 50px;
-    position: absolute;
-    bottom: -60%;
-    right: 40px;
-    border: none;
-}
-
-.db-size3{
-  color: black;
-  padding-left: 20px;
-  font-size: 15px;
-}
-
-.db-size{
-  font-size: 15px;
-}
-
-.db-down{
-  padding-top: 20px;
-}
-
-.db-rot{
-  font-size: 14px;
-}
-
-.db-arrow-btn{
-  opacity: 0;
-}
-
-}
-
-/* Dashboard End */
