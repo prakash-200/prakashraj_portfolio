@@ -49,7 +49,7 @@ function Dashboard() {
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     <button className='border border-0 bg-transparent' onClick={handleDownload} >
-                        <p className={toggle ? 'font-sm db-btn-hover text-dark' : 'font-lg db-btn-hover text-white'}>Resume</p>
+                        <p className={toggle ? 'font-lg db-btn-hover db-text-style text-dark' : 'font-sm db-btn-hover db-text-style text-white'}>Resume</p>
                     </button>
                 </motion.div>
 
@@ -61,14 +61,14 @@ function Dashboard() {
 
                 <motion.div className="col" initial={{ y: -100 }}
                     animate={{ y: 0 }}
-                    transition={{ type: 'spring', stiffness: 30, delay: .3 }}><button onClick={handleEmail} className={toggle ? 'font-sm border border-0 bg-transparent db-btn-hover text-dark' : 'font-lg border border-0 bg-transparent db-btn-hover color color'}>Say Hi..</button></motion.div>
+                    transition={{ type: 'spring', stiffness: 30, delay: .3 }}><button onClick={handleEmail} className={toggle ? 'font-lg border border-0 bg-transparent db-btn-hover db-text-style text-dark' : 'font-sm border border-0 bg-transparent db-btn-hover db-text-style color color'}>Say Hi..</button></motion.div>
             </div>
 
             <div className="row h-50">
                 <motion.div className="col text-start" initial={{ x: -100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover text-dark' : 'db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover text-white'}>Projects</Link>
+                    <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-dark' : 'db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-white'}>Projects</Link>
                 </motion.div>
 
                 <div className="col d-flex justify-content-center align-items-center">
@@ -81,7 +81,7 @@ function Dashboard() {
                 <motion.div className="col d-flex justify-content-end align-items-center" initial={{ x: 100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <p className={toggle ? 'font-sm db-vertical font-lg db-btn-hover px-3 text-dark' : 'db-vertical font-lg db-btn-hover px-3 color'}>Feats</p>
+                    <p className={toggle ? 'font-lg db-vertical font-lg db-btn-hover px-3 db-text-style text-dark' : 'db-vertical font-sm db-btn-hover db-text-style px-3 color'}>Feats</p>
                 </motion.div>
             </div>
 
@@ -116,13 +116,13 @@ function Dashboard() {
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/about" className={ toggle ? 'font-sm text-decoration-none db-btn-hover text-dark': 'font-sm text-decoration-none db-btn-hover color2'}>About</Link>
+                    <Link to="/about" className={ toggle ? 'font-lg text-decoration-none db-text-style db-btn-hover text-dark': 'font-sm text-decoration-none db-text-style db-btn-hover color2'}>About</Link>
                 </motion.div>
 
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/skill" className='font-sm text-decoration-none db-btn-hover text-dark'>My Skills</Link>
+                    <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>My Skills</Link>
                 </motion.div>
             </div>
         </div>
