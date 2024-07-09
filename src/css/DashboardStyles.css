@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
   margin: 0;
@@ -61,13 +63,16 @@
 }
 
 .card-left h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: bolder;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #fcf6f4;
 }
 
 .card-left h3 {
-  font-family: "Karla", sans-serif;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
   font-weight: 300;
   color: #fcf6f4;
 }
@@ -98,22 +103,27 @@
     flex-direction: column;
     width: 250px;
     position: absolute;
-    top: 10%;
+    top: 16%;
     left: 15%;
+    border: none;
   }
 
   .card-left {
     background-color: black;
-    /* border-top: 3px solid #fcf6f4;
+    height: 250px;
+    border-top: 3px solid #fcf6f4;
     border-left: 3px solid #fcf6f4;
-    border-right: 3px solid #fcf6f4; */
+    border-right: 3px solid #fcf6f4;
   }
 
   .card-right {
-    height: 250px;
+    height: 200px;
     border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
   }
 
   .card-right img {
