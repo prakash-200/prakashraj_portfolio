@@ -1,92 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.db-text-style{
+.db-text-style {
   font-family: "Arsenal SC", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.db-page{
+.db-page {
   height: 100vh;
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fcf6f4;
 }
 
-.db-name{
+.db-name {
   font-family: "Allura", cursive;
   font-weight: 800;
   font-style: normal;
   font-size: xx-large;
 }
 
-.db-spin-btn{
+.db-arrow-btn:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.db-spin-btn {
   font-size: 120px;
   position: relative;
   top: 90px;
 }
 
-.db-vertical{
+.db-vertical {
   writing-mode: vertical-lr;
 }
 
-.db-footer{
+.db-footer {
   height: 39%;
+  position: static;
 }
 
-.db-btn-hover:hover{
+.db-btn-hover:hover {
   transform: scale(1.1);
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0px;
+  bottom: 0pc;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-left h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bolder;
+  color: #fcf6f4;
+}
+
+.card-left h3 {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: #fcf6f4;
+}
+
+.card-left h6 {
+  font-family: "Karla", sans-serif;
+  color: rgba(252, 246, 244, 0.6);
+  font-family: "Courier New", Courier, monospace;
 }
 
 @media only screen and (max-width: 576px) {
   .font-sm {
-      font-size: 20px;
-      font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .db-spin {
+    font-size: 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+
+  .card-left {
+    background-color: black;
+    border-top: 3px solid #fcf6f4;
+    border-left: 3px solid #fcf6f4;
+    border-right: 3px solid #fcf6f4;
+  }
+
+  .card-right {
+    height: 250px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+
+  .card-right img {
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 576px) {
   .font-lg {
-      font-size: 23px;
+    font-size: 23px;
+  }
+
+  .db-spin {
+    font-size: 80px;
+  }
+
+  .card {
+    height: 500px;
+  }
+
+  .card-left {
+    width: 50%;
+    height: 100%;
+
+    background-color: black;
+    border-top: 3px solid #fcf6f4;
+    border-left: 3px solid #fcf6f4;
+    border-bottom: 3px solid #fcf6f4;
+  }
+
+  .card-left h1 {
+    font-size: 60px;
+  }
+
+  .card-left h3 {
+    font-size: 40px;
+  }
+
+  .card-left h6 {
+    font-size: xx-large;
+  }
+
+  .card-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  .card-right img {
+    height: 100%;
   }
 }
 
 /* for theme change when trigger */
 @media only screen and (max-width: 800px) {
-  .db-page2{
+  .db-page2 {
     height: 100vh;
     transition: 2;
-     background: linear-gradient(to bottom, black 50%, white 50%);
+    background: linear-gradient(to bottom, black 50%, #fcf6f4 50%);
   }
 
-  .color{
+  .color {
     color: white;
   }
 
-  .color2{
+  .color2 {
     color: black;
   }
 }
 
 @media only screen and (min-width: 801px) {
-  .db-page3{
+  .db-page3 {
     height: 100vh;
     transition: 2;
-     background: linear-gradient(to right, black 50%, white 50%);
+    background: linear-gradient(to right, black 50%, #fcf6f4 50%);
   }
 
-  .color{
+  .color {
     color: black;
   }
 
-  .color2{
+  .color2 {
     color: white;
   }
-
 }

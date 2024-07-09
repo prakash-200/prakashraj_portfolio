@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import '../css/AboutStyles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
@@ -6,29 +6,46 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { motion } from "framer-motion"
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
+  
 
-  const [hideAbout,setHideAbout] = useState(false);
-
+  const [displayedText, setDisplayedText] = useState('');
+  const textToType = `I'm a recent graduate with a BTech in Information Technology, Throughout my academic journey, I have developed a deep passion for coding and have acquired proficiency in web developemnt.My hands-on experience extends to developing several projects.`+`<br /><br />`+`My enthusiasm for technology drives me to continuously learn and adapt to new advancements in the field. I enjoy exploring innovative solutions and tackling complex problems, which has fostered a strong problem-solving mindset.<br /><br />With a strong foundation in information technology and a relentless passion for coding, I am ready to embark on a rewarding career and make meaningful contributions to the tech industry.`;
+  
   useEffect(() => {
-    // Introduce a delay of 3 seconds (3000 milliseconds)
-    const timer = setTimeout(() => {
-      setHideAbout(true);
-    }, 2000);
-
-    // Clear the timeout if the component unmounts
-    return () => {
-      console.log("returned");
-      clearTimeout(timer)};
+    let index = 0;
+    const intervalId = setInterval(() => {
+      setDisplayedText((prev) => prev + textToType[index]);
+      index++;
+      if (index === textToType.length-1) {
+        clearInterval(intervalId);
+      }
+    }, 50); 
+    return () => clearInterval(intervalId);
   }, []);
+
+
+
+  // const [hideAbout,setHideAbout] = useState(false);
+
+  // useEffect(() => {
+  //   // Introduce a delay of 3 seconds (3000 milliseconds)
+  //   const timer = setTimeout(() => {
+  //     setHideAbout(true);
+  //   }, 2000);
+
+  //   // Clear the timeout if the component unmounts
+  //   return () => {
+  //     console.log("returned");
+  //     clearTimeout(timer)};
+  // }, []);
 
   return (
     <div className='About'>
 
-      <div className="row about-row">
+      <div className="row p-3">
         <div className="col-6">
           <h1 className='db-name2'>JP</h1>
         </div>
@@ -67,17 +84,11 @@ const About = () => {
         >
           <FaInstagramSquare style={{ color: "#ffff" }} />
         </motion.button>
-        <p className='db-line2' >_______________________</p>
+        <p className='db-line2 px-2' >_______________________</p>
       </motion.div>
-      <motion.div className="col-8"
-         initial={{ delay: .2, opacity: 0 }}
-         animate={{ opacity: 1 }}
-         transition={{ delay: .2, stiffness: 300 }}
-      >
-      
-      {
-          hideAbout && <div className="card">
-          <p>I'm a recent graduate with a BTech in Information Technology, 
+      <div className="col-8" >
+      <div className="card">
+          {/* <p>I'm a recent graduate with a BTech in Information Technology, 
             Throughout my academic journey, I have developed a deep passion for coding 
             and have acquired proficiency in web developemnt.
             My hands-on experience extends to developing several projects.<br /><br />
@@ -86,10 +97,15 @@ const About = () => {
             With a strong foundation in information technology and a relentless passion for coding, I am ready to embark on a rewarding career and make meaningful contributions to the tech industry.
 
 
-            </p>
+            </p> */}
+            <div className="typing-container">
+      <p>{displayedText}<span className="caret"></span></p>
+    </div>
+
+
         </div>
-        }
-      </motion.div>
+        
+      </div>
       </div>
 
     </div>

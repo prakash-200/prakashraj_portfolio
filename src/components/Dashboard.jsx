@@ -9,6 +9,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { motion } from "framer-motion";
 import resume from '../assets/Prakashraj_J_Resume.pdf';
 import { Link } from 'react-router-dom'
+import avatar from '../assets/Avatar1.png'
 
 function Dashboard() {
 
@@ -54,7 +55,7 @@ function Dashboard() {
                 </motion.div>
 
                 <div className="col">
-                    <button className='p-1 rounded-5 bg-white'>
+                    <button className='db-arrow-btn p-1 rounded-5 bg-white'>
                         <FontAwesomeIcon className='db-arrow' icon={faArrowLeft} />
                     </button>
                 </div>
@@ -71,11 +72,22 @@ function Dashboard() {
                     <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-dark' : 'db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-white'}>Projects</Link>
                 </motion.div>
 
-                <div className="col d-flex justify-content-center align-items-center">
-                    <button className='border border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
+                <div className="col-8 d-flex justify-content-center align-items-center">
+                    { toggle ? <button className='border border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
                         <FontAwesomeIcon icon={faYinYang} spin />
                         <p className='fs-6 m-auto'>click here</p>
-                    </button>
+                    </button> : <div className="card bg-transparent">
+                        <div className="card-left p-4">
+                            <h1>Hi,</h1>
+                            <h3>I'm Prakashraj</h3>
+                            <h6>Driven by a love for software development, keen to grow and eager to turn my passion into impactful full-time work.</h6>
+                        </div>
+                        <div className="card-right">
+                            <img src={avatar} alt="" />
+                        </div>
+                    </div> }
+                    
+                    
                 </div>
 
                 <motion.div className="col d-flex justify-content-end align-items-center" initial={{ x: 100 }}
@@ -119,9 +131,11 @@ function Dashboard() {
                     <Link to="/about" className={ toggle ? 'font-lg text-decoration-none db-text-style db-btn-hover text-dark': 'font-sm text-decoration-none db-text-style db-btn-hover color2'}>About</Link>
                 </motion.div>
 
-                <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
+                <motion.div className="col p-4 fs-4 d-flex flex-column" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
+                        { toggle? "" : <FontAwesomeIcon icon={faYinYang} spin className='db-spin' onClick={handleToggle}/>}
+                        
                     <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>My Skills</Link>
                 </motion.div>
             </div>
