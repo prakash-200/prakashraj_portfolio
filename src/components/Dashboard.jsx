@@ -50,7 +50,7 @@ function Dashboard() {
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     <button className='border border-0 bg-transparent' onClick={handleDownload} >
-                        <p className={toggle ? 'font-lg db-btn-hover db-text-style text-dark' : 'font-sm db-btn-hover db-text-style text-white'}>Resume</p>
+                        <p className={toggle ? 'font-lg db-btn-hover db-text-style text-dark' : 'font-lg db-btn-hover db-text-style text-white'}>Resume</p>
                     </button>
                 </motion.div>
 
@@ -62,7 +62,7 @@ function Dashboard() {
 
                 <motion.div className="col" initial={{ y: -100 }}
                     animate={{ y: 0 }}
-                    transition={{ type: 'spring', stiffness: 30, delay: .3 }}><button onClick={handleEmail} className={toggle ? 'font-lg border border-0 bg-transparent db-btn-hover db-text-style text-dark' : 'font-sm border border-0 bg-transparent db-btn-hover db-text-style color color'}>Say Hi..</button></motion.div>
+                    transition={{ type: 'spring', stiffness: 30, delay: .3 }}><button onClick={handleEmail} className={toggle ? 'font-lg border border-0 bg-transparent db-btn-hover db-text-style text-dark' : 'font-lg border border-0 bg-transparent db-btn-hover db-text-style color color'}>Say Hi..</button></motion.div>
             </div>
 
             <div className="row h-50">
@@ -134,14 +134,18 @@ function Dashboard() {
                     <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style db-btn-hover text-dark' : 'font-sm text-decoration-none db-text-style db-btn-hover color2'}>About</Link>
                 </motion.div>
 
-                <motion.div className="col p-4 fs-4 d-flex flex-column" initial={{ y: 100 }}
+                <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    {toggle ? "" : <motion.div initial={{ y: 900, x: 300 }}
-                    animate={{ y: 0, x: 0 }} transition={{ duration: 1 }} ><FontAwesomeIcon icon={faYinYang} spin className='db-spin' onClick={handleToggle} /></motion.div> }
+                    
 
                     <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>My Skills</Link>
                 </motion.div>
+
+                <div className="col p-2">
+                {toggle ? "" : <motion.div className='db-back' initial={{ y: 900, x: 300 }}
+                    animate={{ y: 0, x: 0 }} transition={{ duration: 1 }} ><FontAwesomeIcon icon={faYinYang} spin className='db-spin' onClick={handleToggle} /></motion.div> }
+                </div>
             </div>
         </div>
     )

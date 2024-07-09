@@ -34,7 +34,7 @@
 }
 
 .db-spin-btn {
-  font-size: 120px;
+  font-size: 160px;
   position: relative;
   top: 90px;
 }
@@ -46,6 +46,12 @@
 .db-footer {
   height: 39%;
   position: static;
+}
+
+.db-back{
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
 }
 
 .db-btn-hover:hover {
@@ -103,7 +109,7 @@
     flex-direction: column;
     width: 250px;
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 15%;
     border: none;
   }
