@@ -125,7 +125,7 @@ function Dashboard() {
                     >
                         <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark' : 'color2'} target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
                     </motion.button>
-                    <p className={toggle ? 'db-vertical px-2 text-dark' : 'db-vertical px-2 color2'}>________________</p>
+                    <p className={toggle ? 'db-vertical px-2 text-dark line' : 'db-vertical px-2 color2 line'}>________________</p>
                 </motion.div>
 
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}

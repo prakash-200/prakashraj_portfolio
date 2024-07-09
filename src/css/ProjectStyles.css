@@ -7,6 +7,10 @@
     color: white;
 }
 
+.pjt h1{
+    font-size: x-large;
+}
+
 .pjt-name{
     color: white;
     padding-left: 30px;
@@ -34,6 +38,11 @@
     opacity: .4;
     padding: 30px;
 }
+
+
+.db-btn-hover:hover {
+    transform: scale(1.1);
+  }
 
 @media only screen and (max-width: 415px)  {
     .abt-col p{

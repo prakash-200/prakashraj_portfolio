@@ -48,6 +48,10 @@
   position: static;
 }
 
+.line{
+  letter-spacing: 0px;
+}
+
 .db-back{
   position: absolute;
   bottom: 80px;
