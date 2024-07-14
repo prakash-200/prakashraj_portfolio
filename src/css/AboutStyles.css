@@ -47,9 +47,9 @@
   top: 80px;
 }
 
-.abt-arrow:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+.abt-arrow:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .abt-para p {
@@ -64,21 +64,21 @@
   font-size: x-large;
 }
 
-.para-div{
+.para-div {
   height: 80%;
-  
-border: 2px solid white;
-border-radius: 10px;
+
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .scale-on-hover {
-    display: inline-block; /* Ensures the element behaves correctly */
-    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
-  }
+  display: inline-block; /* Ensures the element behaves correctly */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
 
-  .scale-on-hover:hover {
-    transform: scale(1.1); /* Scale up by 10% when hovered */
-  }
+.scale-on-hover:hover {
+  transform: scale(1.1); /* Scale up by 10% when hovered */
+}
 
 .abt-footer {
   height: 100%;
@@ -107,14 +107,13 @@ border-radius: 10px;
   }
 
   .abt-para p {
-    font-size: 14px;
+    font-size: 15px;
     padding: 30px 20px;
   }
 
-  .para-div{
+  .para-div {
     height: 80%;
-    
-  border: 2px solid white;
-  border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
   }
 }
