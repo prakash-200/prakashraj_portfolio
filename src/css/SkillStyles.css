@@ -47,9 +47,12 @@
     flex-wrap: wrap;
   }
 
+  .skl-btn{
+    border: 2px solid black;
+  }
+
   .card1,
   .card2 {
-    margin: 10px;
     padding: 20px;
     border: 2px solid black;
     background-color: #fcf6f4;
@@ -60,11 +63,13 @@
 
   .card1{
     height: 330px;
+    margin-bottom: 50px;
   }
 
   .card2{
     margin-top: -100px;
     height: 400px;
+    margin-bottom: 100px;
   }
 
   .card1 p:first-child,

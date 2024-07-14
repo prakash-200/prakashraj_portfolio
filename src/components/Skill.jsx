@@ -20,7 +20,7 @@ function Skill() {
         </div>
         <div className="col text-start p-4">
 
-          <Link to="/" className='abt-arrow text-dark p-2 rounded-5 bg-white'>
+          <Link to="/" className='abt-arrow text-dark p-2 rounded-5 bg-white skl-btn'>
             <FontAwesomeIcon className='abt-arrow' icon={faArrowLeft} />
           </Link>
         </div>
