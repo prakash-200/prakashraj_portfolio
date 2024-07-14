@@ -53,9 +53,7 @@
 }
 
 .abt-para p {
-  border: 2px solid white;
   padding: 50px 20px;
-  border-radius: 10px;
   color: white;
   text-indent: 20px;
   background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
@@ -63,7 +61,14 @@
   font-family: "Cormorant Upright", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: larger;
+  font-size: x-large;
+}
+
+.para-div{
+  height: 80%;
+  
+border: 2px solid white;
+border-radius: 10px;
 }
 
 .scale-on-hover {
@@ -98,10 +103,18 @@
 
   .abt-para {
     width: 90%;
+    height: 100%;
   }
 
   .abt-para p {
-    font-size: large;
+    font-size: 14px;
     padding: 30px 20px;
+  }
+
+  .para-div{
+    height: 80%;
+    
+  border: 2px solid white;
+  border-radius: 10px;
   }
 }
