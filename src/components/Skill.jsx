@@ -52,7 +52,9 @@ function Skill() {
           </motion.div>
         </div>
         <div className="col-10 skl-card">
-          <div className="card1">
+          <motion.div initial={{ y: 900 }}
+                        animate={{ y: 0 }}
+                        transition={{ duration: 1 }} className="card1">
             <p><FaLaptopCode className='skl-icon' /><span className='px-3'>Software Developer</span>
             </p>
             <p class='skl-ff'>I enjoy writing clean code and creating useful products.</p>
@@ -63,8 +65,10 @@ function Skill() {
               <li class='skl-ff'>VS Code</li>
               <li class='skl-ff'>Eclipse</li>
             </ul>
-          </div>
-          <div className="card2">
+          </motion.div>
+          <motion.div initial={{ y: -900 }}
+                        animate={{ y: 0 }}
+                        transition={{ duration: 1 }} className="card2">
             <p><FontAwesomeIcon className='skl-icon' icon={faPalette} />
             <span className='px-3'>Frontend Developer</span>
             </p>
@@ -73,7 +77,7 @@ function Skill() {
             <p class='skl-ff'>Html, Css, Js,  React, Angular, Tailwind CSS, Bootstrap, Firebase</p>
             <p class='skl-ff2'>TOOLS</p>
             <p class='skl-ff'>VS Code, GitHub</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

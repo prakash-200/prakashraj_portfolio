@@ -49,18 +49,27 @@
 
   .card1,
   .card2 {
+    margin: 10px;
     padding: 20px;
     border: 2px solid black;
     background-color: #fcf6f4;
     border-radius: 10px;
-    height: 350px;
-    width: 70%;
-    margin: 10px;
+    /* height: 350px; */
+    width: 80%;
+  }
+
+  .card1{
+    height: 330px;
+  }
+
+  .card2{
+    margin-top: -100px;
+    height: 400px;
   }
 
   .card1 p:first-child,
   .card2 p:first-child {
-    font-size: large;
+    font-size: medium;
     font-family: "Irish Grover", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -68,11 +77,12 @@
 
   .skl-ff{
     font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
   }
 
   .skl-ff2{
     font-weight: bold;
-    font-size: medium;
+    font-size: small;
     font-family: 'Times New Roman', Times, serif;
   }
 
