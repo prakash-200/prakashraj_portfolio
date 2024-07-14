@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { motion } from "framer-motion";
-import resume from '../assets/Prakashraj_J_Resume.pdf';
+import resume from '../assets/Prakashraj_J-Resume.pdf';
 import { Link } from 'react-router-dom'
 import avatar from '../assets/Avatar1.png'
 
@@ -108,14 +108,14 @@ function Dashboard() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ delay: 1.0, duration: 1, ease: "easeInOut" }}
                     >
-                        <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark' : 'color2'} target='_blank'><FaLinkedin className='db-btn-hover' /></a>
+                        <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark px-2' : 'color2 px-2'} target='_blank'><FaLinkedin className='db-btn-hover' /></a>
 
                     </motion.button><br />
                     <motion.button className='border border-0 bg-transparent fs-2'
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ delay: 2.0, duration: 1, ease: "easeInOut" }}
                     >
-                        <a href="https://github.com/prakash-200" className={toggle ? 'text-dark' : 'color2'} target='_blank'><FaGithub className='db-btn-hover' /></a>
+                        <a href="https://github.com/prakash-200" className={toggle ? 'text-dark px-2' : 'color2 px-2'} target='_blank'><FaGithub className='db-btn-hover' /></a>
 
 
                     </motion.button><br />
@@ -123,9 +123,9 @@ function Dashboard() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ delay: 3.0, duration: 1, ease: "easeInOut" }}
                     >
-                        <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark' : 'color2'} target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
+                        <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark px-2' : 'color2 px-2'} target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
                     </motion.button>
-                    <p className={toggle ? 'db-vertical px-2 text-dark line' : 'db-vertical px-2 color2 line'}>________________</p>
+                    <p className={toggle ? 'db-vertical text-dark line' : 'db-vertical color2 line'}>________________</p>
                 </motion.div>
 
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}

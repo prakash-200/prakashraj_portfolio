@@ -1,10 +1,17 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .pjt{
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 
 .pjt h1{
@@ -38,10 +45,15 @@
     opacity: .4;
     padding: 30px;
 }
-
-
+  
 .db-btn-hover:hover {
     transform: scale(1.1);
+  }
+  
+  .pjt-swipe{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .5;
   }
 
 @media only screen and (max-width: 415px)  {
@@ -51,6 +63,10 @@
     
     .db-arrow-btn{
         opacity: 1;
+    }
+
+    .pjt-swipe{
+        font-size: xx-large;
     }
 }
 

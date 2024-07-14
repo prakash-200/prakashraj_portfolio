@@ -41,15 +41,12 @@
 
 .db-vertical {
   writing-mode: vertical-lr;
+  rotate: 180deg;
 }
 
 .db-footer {
   height: 39%;
   position: static;
-}
-
-.line{
-  letter-spacing: 0px;
 }
 
 .db-back{
@@ -67,7 +64,7 @@
   height: 100%;
   position: relative;
   left: 0px;
-  bottom: 0pc;
+  bottom: 0px;
   display: flex;
   flex-direction: row;
 }
@@ -113,8 +110,8 @@
     flex-direction: column;
     width: 250px;
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 30%;
+    left: 25%;
     border: none;
   }
 
