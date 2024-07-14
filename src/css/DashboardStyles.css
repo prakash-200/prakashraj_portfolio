@@ -50,6 +50,11 @@
   writing-mode: vertical-lr;
 }
 
+.db-vertical3 {
+  writing-mode: vertical-lr;
+  rotate: 180deg;
+}
+
 .db-footer {
   height: 39%;
   position: static;
@@ -104,7 +109,6 @@
 
   .db-spin-btn{
     position: relative;
-    left: -50px;
   }
 
   .db-spin {

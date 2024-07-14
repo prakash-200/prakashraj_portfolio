@@ -1,150 +1,86 @@
-
-
-/* About Page Start */
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.About{
+.abt{
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 
-.db-name2{
+.abt-name {
     font-family: "Allura", cursive;
-    font-weight: 900;
-    font-size: 40px;
-    color: #ffffff;
-    margin-left: 30px;
-}
-
-
-.db-arrow-btn2{
-    border-radius: 50px;
-    background-color: #ffff;
-    border: none;
-    padding: 4px 7px;
-}
-
-.db-arrow{
+    font-weight: 800;
+    font-style: normal;
     font-size: xx-large;
-}
+  }
 
-.about-text{
-    font-size: 150px;
-    margin-left: 30px;
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffff;
-    opacity: .5;
-}
-
-
-.db-link-btn2{
-    border: none;
-    font-size: xx-large;
-    background-color: transparent;
-}
-
-.db-link2{
+  .abt-about{
+    padding-left: 20%;
+    font-size: 100px;
     position: absolute;
-    top: 70%;
-    margin-left: 30px;
-}
-
-.db-line2{
-    color: #ffff;
-    writing-mode: vertical-rl;
+    left: -100px;
+    color: white;
+    opacity: .4;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
-}
+  }
 
-.card{
-    width: 100%;
+  .abt-link {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .abt-para{
+    padding-left: 20%;
+    width: 80%;
     position: relative;
-    left: 100px;
-    bottom: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffff;
-    border: 3px solid #ffff;
-}
+    top: 80px;
+  }
 
-.card p{
-    padding: 50px;
-    /* color: #ffff; */
-    opacity: 1;
-    font-family: "Ubuntu Mono", monospace;
-    font-style: italic;
-}
+  .abt-para p{
+    border: 2px solid white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    color: white;
+    text-indent: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+  backdrop-filter: blur(3px);
+  }
 
-.db-arrow-btn2:hover{
-    opacity: .7;
-}
+  .abt-footer{
+    height: 100%;
+  }
 
-@media only screen and (max-width: 600px) {
-    .about-text{
-        font-size: 100px;
+  .fade-in {
+    opacity: 0; /* Start with the content invisible */
+    animation: fadeIn 3s ease-in forwards; /* Apply the fadeIn animation over 3 seconds */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* End with the content fully visible */
     }
-}
+  }
+  
 
-@media only screen and (max-width: 975px) {
-    .card p{
-        padding: 20px;
+  @media only screen and (max-width: 576px) {
+    .abt-about{
+        font-size: 50px;
+        padding-left: 130px;
     }
 
-    .card{
+    .abt-para{
+        width: 90%;
     }
-}
 
-@media only screen and (max-width: 715px) {
-    .card p{
+    .abt-para p{
         font-size: small;
-    }
-
-}
-
-@media only screen and (max-width: 420px) {
-    .card p{
-        font-size: x-small;
-    }
-
-    .db-link-btn2{
-        font-size: x-large;
-    }
-
-    .db-arrow, .db-arrow-btn2{
-        font-size: x-small;
-    }
-}
-
-/* About Page End */
-
-.typing-container {
-    font-family: monospace;
-    font-size: large;
-    white-space: wrap;
-  }
-  
-  .caret {
-    display: inline-block;
-    width: 10px;
-    background-color: black;
-    margin-left: 2px;
-    animation: blink 0.7s infinite;
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
+        padding: 30px 20px;
     }
   }
-  

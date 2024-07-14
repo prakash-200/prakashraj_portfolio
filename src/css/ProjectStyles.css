@@ -51,7 +51,7 @@
   }
 
   .pjt-swipe{
-    font-size: 70px;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     opacity: .5;
   }
@@ -66,7 +66,7 @@
     }
 
     .pjt-swipe{
-        font-size: large;
+        font-size:xx-large;
     }
 }
 

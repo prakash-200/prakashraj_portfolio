@@ -69,7 +69,7 @@ function Dashboard() {
                 <motion.div className="col text-start py-4" initial={{ x: -100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-dark' : 'db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-white'}>Projects</Link>
+                    <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-dark' : 'db-vertical3 py-3 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-white'}>Projects</Link>
                 </motion.div>
 
                 <div className="col-8 d-flex justify-content-center align-items-center">
