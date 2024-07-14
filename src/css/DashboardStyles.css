@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -42,6 +43,11 @@
 .db-vertical {
   writing-mode: vertical-lr;
   rotate: 180deg;
+  letter-spacing: -2px;
+}
+
+.db-vertical2 {
+  writing-mode: vertical-lr;
 }
 
 .db-footer {
@@ -148,37 +154,40 @@
   }
 
   .card {
-    height: 500px;
+    height: 300px;
+    width: 100%;
+    position: relative;
   }
 
   .card-left {
     width: 50%;
     height: 100%;
     background-color: black;
-    /* border-top: 3px solid #fcf6f4;
+    border-top: 3px solid #fcf6f4;
     border-left: 3px solid #fcf6f4;
-    border-bottom: 3px solid #fcf6f4; */
+    border-bottom: 3px solid #fcf6f4;
   }
 
   .card-left h1 {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .card-left h3 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .card-left h6 {
-    font-size: xx-large;
+    font-size: large;
   }
 
   .card-right {
     width: 50%;
     height: 100%;
-    display: flex;
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
   }
   .card-right img {
     height: 100%;

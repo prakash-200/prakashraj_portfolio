@@ -96,7 +96,7 @@ function Dashboard() {
                 <motion.div className="col d-flex justify-content-end align-items-center" initial={{ x: 100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <p className={toggle ? 'font-lg db-vertical font-lg db-btn-hover px-3 db-text-style text-dark' : 'db-vertical font-sm db-btn-hover db-text-style px-3 color'}>Feats</p>
+                    <p className={toggle ? 'font-lg db-vertical2 font-lg db-btn-hover px-3 db-text-style text-dark' : ' py-5 db-vertical2 font-sm db-btn-hover db-text-style px-3 color'}>Feats</p>
                 </motion.div>
             </div>
 
@@ -139,7 +139,7 @@ function Dashboard() {
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     
 
-                    <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>My Skills</Link>
+                    <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>Skills</Link>
                 </motion.div>
 
                 <div className="col p-2">
