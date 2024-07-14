@@ -66,7 +66,7 @@ function Dashboard() {
             </div>
 
             <div className="row h-50">
-                <motion.div className="col text-start" initial={{ x: -100 }}
+                <motion.div className="col text-start py-4" initial={{ x: -100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     <Link to="/project" className={toggle ? 'font-sm db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-dark' : 'db-vertical pt-5 px-3 font-lg text-decoration-none db-btn-hover db-text-style text-white'}>Projects</Link>
