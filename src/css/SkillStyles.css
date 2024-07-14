@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Irish+Grover&family=Russo+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.skl {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+}
+
+.skl-header {
+  height: 10%;
+}
+
+.skl-name {
+  font-family: "Allura", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.skl-footer {
+  height: 100%;
+}
+
+.skl-link {
+  position: static;
+}
+
+.card2:hover,
+.card1:hover {
+  background-color: #444342;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .skl-footer {
+    height: 100%;
+  }
+
+  .skl-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card1,
+  .card2 {
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #fcf6f4;
+    border-radius: 10px;
+    height: 350px;
+    width: 70%;
+    margin: 10px;
+  }
+
+  .card1 p:first-child,
+  .card2 p:first-child {
+    font-size: large;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .skl-ff{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .skl-ff2{
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .skl-icon{
+    font-size: x-large;
+  }
+
+}
+
+@media only screen and (min-width: 801px) {
+  .skl-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .card1,
+  .card2 {
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #fcf6f4;
+    border-radius: 10px;
+    height: 70%;
+    width: 50%;
+    margin: 30px;
+  }
+
+  .card1 p:first-child,
+  .card2 p:first-child {
+    font-size: xx-large;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .skl-ff{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .skl-ff2{
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .skl-icon{
+    font-size: xx-large;
+  }
+
+}

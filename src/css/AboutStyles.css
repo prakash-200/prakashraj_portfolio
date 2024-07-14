@@ -1,86 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Russo+One&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.abt{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
+.abt {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
 }
 
 .abt-name {
-    font-family: "Allura", cursive;
-    font-weight: 800;
-    font-style: normal;
-    font-size: xx-large;
-  }
+  font-family: "Allura", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: xx-large;
+}
 
-  .abt-about{
-    padding-left: 20%;
-    font-size: 100px;
-    position: absolute;
-    left: -100px;
-    color: white;
-    opacity: .4;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+.abt-about {
+  padding-left: 20%;
+  font-size: 100px;
+  position: absolute;
+  left: -100px;
+  color: white;
+  opacity: 0.4;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .abt-link {
-    position: absolute;
-    bottom: 0;
-  }
+.abt-link {
+  position: absolute;
+  bottom: 0;
+}
 
-  .abt-para{
-    padding-left: 20%;
-    width: 80%;
-    position: relative;
-    top: 80px;
-  }
+.abt-para {
+  padding-left: 20%;
+  width: 80%;
+  position: relative;
+  top: 80px;
+}
 
-  .abt-para p{
-    border: 2px solid white;
-    padding: 50px 20px;
-    border-radius: 10px;
-    color: white;
-    text-indent: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+.abt-arrow:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.abt-para p {
+  border: 2px solid white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  color: white;
+  text-indent: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
   backdrop-filter: blur(3px);
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.scale-on-hover {
+    display: inline-block; /* Ensures the element behaves correctly */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
   }
 
-  .abt-footer{
-    height: 100%;
+  .scale-on-hover:hover {
+    transform: scale(1.1); /* Scale up by 10% when hovered */
   }
 
-  .fade-in {
-    opacity: 0; /* Start with the content invisible */
-    animation: fadeIn 3s ease-in forwards; /* Apply the fadeIn animation over 3 seconds */
-  }
-  
-  @keyframes fadeIn {
-    to {
-      opacity: 1; /* End with the content fully visible */
-    }
-  }
-  
+.abt-footer {
+  height: 100%;
+}
 
-  @media only screen and (max-width: 576px) {
-    .abt-about{
-        font-size: 50px;
-        padding-left: 130px;
-    }
+.fade-in {
+  opacity: 0; /* Start with the content invisible */
+  animation: fadeIn 3s ease-in forwards; /* Apply the fadeIn animation over 3 seconds */
+}
 
-    .abt-para{
-        width: 90%;
-    }
-
-    .abt-para p{
-        font-size: small;
-        padding: 30px 20px;
-    }
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* End with the content fully visible */
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .abt-about {
+    font-size: 50px;
+    padding-left: 130px;
+  }
+
+  .abt-para {
+    width: 90%;
+  }
+
+  .abt-para p {
+    font-size: large;
+    padding: 30px 20px;
+  }
+}

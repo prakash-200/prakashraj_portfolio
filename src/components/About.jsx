@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 
 function About() {
   return (
@@ -14,12 +16,11 @@ function About() {
         <div className='col'>
           <p className="text-light abt-name p-3">JP</p>
         </div>
-        <div className="col text-start">
-          <button className='m-3 p-2 rounded-5 bg-white'>
-            <Link to="/" className='text-dark'>
-              <FontAwesomeIcon className='db-arrow' icon={faArrowLeft} />
+        <div className="col text-start p-4">
+            
+            <Link to="/" className='abt-arrow text-dark p-2 rounded-5 bg-white'>
+              <FontAwesomeIcon className='abt-arrow' icon={faArrowLeft} />
             </Link>
-          </button>
         </div>
       </div>
 
@@ -36,19 +37,19 @@ function About() {
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 1.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://www.linkedin.com/in/prakashraj200/" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaLinkedin className='db-btn-hover' /></a>
+              <a href="https://www.linkedin.com/in/prakashraj200/" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaLinkedin className='scale-on-hover'/></a>
             </motion.button><br />
             <motion.button className='border border-0 bg-transparent fs-2'
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 2.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://github.com/prakash-200" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaGithub className='db-btn-hover' /></a>
+              <a href="https://github.com/prakash-200" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaGithub className='abt-arrow' /></a>
             </motion.button><br />
             <motion.button className='border border-0 bg-transparent fs-2'
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 3.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://www.instagram.com/prakashraj200/" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaInstagramSquare className='db-btn-hover' /></a>
+              <a href="https://www.instagram.com/coding__luv/" className='text-light px-4' target='_blank' rel="noopener noreferrer"><FaInstagramSquare className='abt-arrow' /></a>
             </motion.button>
             <p className='db-vertical px-3 text-light'>______________________</p>
           </motion.div>
