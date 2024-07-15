@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Righteous&display=swap');
+
 .carousel-container {
   display: flex;
   overflow-x: auto; /* Use auto to show scrollbar only when necessary */
@@ -56,10 +58,11 @@
 }
 
 .flip-card-front h1 {
-  font-weight: bold;
   font-size: 1.5rem; /* Adjust font size for readability */
   margin-bottom: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .flip-card-front p {

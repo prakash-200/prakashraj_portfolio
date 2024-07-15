@@ -101,10 +101,10 @@ function Project() {
 
     <div className="pjt">
       <div className="row">
-        <div className="col-6 pjt-name">JP</div>
-        <div className="col-6 db-btn">
-          <Link to="/" className='db-arrow-btn' style={{ color: "black", backgroundColor: "white", padding: 5, borderRadius: 50 }}>
-            <FontAwesomeIcon className='db-arrow fs-3' icon={faArrowLeft} />
+        <div className="col pjt-name">JP</div>
+        <div className="col text-start p-4">
+          <Link to="/" className='abt-arrow text-dark p-2 rounded-5 bg-white'>
+            <FontAwesomeIcon className='db-arrow' icon={faArrowLeft} />
           </Link>
         </div>
       </div>
