@@ -160,7 +160,7 @@ function Project() {
 
 
         </div>
-        <div className="col-8">
+        <div className="col-10">
                   <p className='d-flex justify-content-end pjt-swipe'>Swipe . . . </p>
                 </div>
       </div>

@@ -59,6 +59,7 @@
 .db-footer {
   height: 39%;
   position: static;
+  overflow: hidden;
 }
 
 .db-back{

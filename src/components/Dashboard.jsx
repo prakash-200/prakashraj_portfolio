@@ -101,7 +101,7 @@ function Dashboard() {
             </div>
 
             <div className="row db-footer p-3 d-flex align-items-end">
-                <motion.div className="col db-footer-col1" initial={{ y: 300 }}
+                <motion.div className="col" initial={{ y: 300 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 100 }}>
                     <motion.button className='border border-0 bg-transparent fs-2'
