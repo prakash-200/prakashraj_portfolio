@@ -51,7 +51,7 @@
   .skl-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
   }
 
   .card1,
