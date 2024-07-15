@@ -25,7 +25,7 @@ function Skill() {
           </Link>
         </div>
       </div>
-      <div className="row skl-footer bg-info">
+      <div className="row skl-footer">
         <div className="col col-sm-2 col-lg-1 skl-link align-self-end">
           <motion.div className="col" initial={{ y: 300 }}
             animate={{ y: 0 }}
@@ -57,13 +57,13 @@ function Skill() {
                         transition={{ duration: 1 }} className="card1">
             <p><FaLaptopCode className='skl-icon' /><span className='px-3'>Software Developer</span>
             </p>
-            <p class='skl-ff'>I enjoy writing clean code and creating useful products.</p>
-            <p class='skl-ff2'>I LIKE TO CODE IN</p>
-            <p class='skl-ff'>Python, Java, Javascript, MySQL, C, C++</p>
-            <p class='skl-ff2'>TOOLS</p>
+            <p className='skl-ff'>I enjoy writing clean code and creating useful products.</p>
+            <p className='skl-ff2'>I LIKE TO CODE IN</p>
+            <p className='skl-ff'>Python, Java, Javascript, MySQL, C, C++</p>
+            <p className='skl-ff2'>TOOLS</p>
             <ol>
-              <li class='skl-ff'>VS Code</li>
-              <li class='skl-ff'>Eclipse</li>
+              <li className='skl-ff'>VS Code</li>
+              <li className='skl-ff'>Eclipse</li>
             </ol>
           </motion.div>
           <motion.div initial={{ y: -900 }}
@@ -72,11 +72,11 @@ function Skill() {
             <p><FontAwesomeIcon className='skl-icon' icon={faPalette} />
             <span className='px-3'>Frontend Developer</span>
             </p>
-            <p class='skl-ff'>It's fun for me to bring new concepts to life. I consider myself fortunate to be a frontend developer because my work has a direct impact on the user's life.</p>
-            <p class='skl-ff2'>SKILLS</p>
-            <p class='skl-ff'>Html, Css, Js,  React, Angular, Tailwind CSS, Bootstrap, Firebase</p>
-            <p class='skl-ff2'>TOOLS</p>
-            <p class='skl-ff'>VS Code, GitHub</p>
+            <p className='skl-ff'>It's fun for me to bring new concepts to life. I consider myself fortunate to be a frontend developer because my work has a direct impact on the user's life.</p>
+            <p className='skl-ff2'>SKILLS</p>
+            <p className='skl-ff'>Html, Css, Js,  React, Angular, Tailwind CSS, Bootstrap, Firebase</p>
+            <p className='skl-ff2'>TOOLS</p>
+            <p className='skl-ff'>VS Code, GitHub</p>
           </motion.div>
         </div>
       </div>

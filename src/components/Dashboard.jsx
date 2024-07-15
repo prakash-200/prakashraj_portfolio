@@ -41,7 +41,7 @@ function Dashboard() {
     return (
         <div className={toggle ? "db-page" : "db-page2 db-page3"}>
 
-            <div className="row p-2">
+            <div className="row db-nav p-2">
                 <div className='col'>
                     <p className={toggle ? "col db-name text-dark" : "col db-name text-white"}>JP</p>
                 </div>
@@ -100,8 +100,8 @@ function Dashboard() {
                 </motion.div>
             </div>
 
-            <div className="row p-3 d-flex align-items-end db-footer">
-                <motion.div className="col" initial={{ y: 300 }}
+            <div className="row db-footer p-3 d-flex align-items-end">
+                <motion.div className="col db-footer-col1" initial={{ y: 300 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 100 }}>
                     <motion.button className='border border-0 bg-transparent fs-2'
