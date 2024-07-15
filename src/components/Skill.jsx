@@ -59,11 +59,10 @@ function Skill() {
             </p>
             <p className='skl-ff'>I enjoy writing clean code and creating useful products.</p>
             <p className='skl-ff2'>I LIKE TO CODE IN</p>
-            <p className='skl-ff'>Python, Java, Javascript, MySQL, C, C++</p>
+            <p className='skl-ff'>Java, Javascript, MySQL, C, C++</p>
             <p className='skl-ff2'>TOOLS</p>
             <ol>
-              <li className='skl-ff'>VS Code</li>
-              <li className='skl-ff'>Eclipse</li>
+              <li className='skl-ff'>VS Code, Eclipse, Postman</li>
             </ol>
           </motion.div>
           <motion.div initial={{ y: -900 }}

@@ -68,9 +68,8 @@
   right: 50px;
 }
 
-.db-hover:hover{
-  transform: scale(1.2);
-  color: red;
+.db-bd p:hover{
+  transform: scale(1.1);
 }
 
 .db-btn-hover:hover {

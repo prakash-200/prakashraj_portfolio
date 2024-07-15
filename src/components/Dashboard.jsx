@@ -131,7 +131,7 @@ function Dashboard() {
                 <motion.div className="col db-bd p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style text-dark db-hover' : 'db-hover font-sm text-decoration-none db-text-style color2'}>About</Link>
+                    <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style text-dark db-hover' : 'db-hover font-sm text-decoration-none db-text-style color2'}><p>About</p></Link>
                 </motion.div>
 
                 <motion.div className="col db-bd p-4 fs-4" initial={{ y: 100 }}
@@ -139,7 +139,7 @@ function Dashboard() {
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     
 
-                    <Link to="/skill" className='font-sm text-decoration-none db-text-style text-dark db-hover'>Skills</Link>
+                    <Link to="/skill" className='font-sm text-decoration-none db-text-style text-dark db-hover'><p>Skills</p></Link>
                 </motion.div>
 
                 <div className="col p-2">
