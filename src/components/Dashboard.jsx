@@ -41,7 +41,7 @@ function Dashboard() {
     return (
         <div className={toggle ? "db-page" : "db-page2 db-page3"}>
 
-            <div className="row db-nav p-2">
+            <div className="row p-2">
                 <div className='col'>
                     <p className={toggle ? "col db-name text-dark" : "col db-name text-white"}>JP</p>
                 </div>
