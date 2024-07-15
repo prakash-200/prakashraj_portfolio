@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../css/SlideCardStyles.css';
-import ReactCardFlip from 'reactjs-flip-card'
 
 function SlideCard({ frontContent, backContent }) {
 
