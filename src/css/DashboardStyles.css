@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-* {
-  overflow: hidden;
+*{
+  /* overflow: hidden; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,6 +27,7 @@
   font-weight: 800;
   font-style: normal;
   font-size: xx-large;
+  padding-left: 10px;
 }
 
 .db-arrow-btn:hover {
@@ -64,6 +65,11 @@
   position: absolute;
   bottom: 80px;
   right: 50px;
+}
+
+.db-hover:hover{
+  transform: scale(1.2);
+  color: red;
 }
 
 .db-btn-hover:hover {
@@ -196,9 +202,9 @@
   .card-right img {
     height: 100%;
   }
-}
+} 
 
-/* for theme change when trigger */
+
 @media only screen and (max-width: 800px) {
   .db-page2 {
     height: 100vh;
@@ -229,4 +235,4 @@
   .color2 {
     color: white;
   }
-}
+} 

@@ -34,13 +34,13 @@ function Skill() {
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 1.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://www.linkedin.com/in/prakashraj200/" className='text-dark px-4' target='_blank' rel="noopener noreferrer"><FaLinkedin className='scale-on-hover' /></a>
+              <a href="https://www.linkedin.com/in/prakashraj200/" className='text-dark px-4' target='_blank'><FaLinkedin className='scale-on-hover' /></a>
             </motion.button><br />
             <motion.button className='border border-0 bg-transparent fs-2'
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 2.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://github.com/prakash-200" className='text-dark px-4' target='_blank' rel="noopener noreferrer"><FaGithub className='abt-arrow' /></a>
+              <a href="https://github.com/prakash-200" className='text-dark px-4' target='_blank'><FaGithub className='abt-arrow' /></a>
             </motion.button><br />
             <motion.button className='border border-0 bg-transparent fs-2'
               animate={{ scale: [1, 1.5, 1] }}
@@ -61,10 +61,10 @@ function Skill() {
             <p class='skl-ff2'>I LIKE TO CODE IN</p>
             <p class='skl-ff'>Python, Java, Javascript, MySQL, C, C++</p>
             <p class='skl-ff2'>TOOLS</p>
-            <ul>
+            <ol>
               <li class='skl-ff'>VS Code</li>
               <li class='skl-ff'>Eclipse</li>
-            </ul>
+            </ol>
           </motion.div>
           <motion.div initial={{ y: -900 }}
                         animate={{ y: 0 }}

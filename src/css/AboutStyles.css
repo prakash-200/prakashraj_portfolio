@@ -47,6 +47,11 @@
   top: 80px;
 }
 
+.scale-on-hover:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .abt-arrow:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -56,7 +61,7 @@
   padding: 50px 20px;
   color: white;
   text-indent: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+  background-color: rgba(0, 0, 0, 0.5); 
   backdrop-filter: blur(3px);
   font-family: "Cormorant Upright", serif;
   font-weight: 400;
@@ -70,12 +75,12 @@
 }
 
 .scale-on-hover {
-  display: inline-block; /* Ensures the element behaves correctly */
-  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+  display: inline-block; 
+  transition: transform 0.3s ease-in-out; 
 }
 
 .scale-on-hover:hover {
-  transform: scale(1.1); /* Scale up by 10% when hovered */
+  transform: scale(1.1); 
 }
 
 .abt-footer {
@@ -83,13 +88,13 @@
 }
 
 .fade-in {
-  opacity: 0; /* Start with the content invisible */
-  animation: fadeIn 3s ease-in forwards; /* Apply the fadeIn animation over 3 seconds */
+  opacity: 0; 
+  animation: fadeIn 3s ease-in forwards;
 }
 
 @keyframes fadeIn {
   to {
-    opacity: 1; /* End with the content fully visible */
+    opacity: 1; 
   }
 }
 
@@ -113,4 +118,6 @@
     border: 2px solid white;
     border-radius: 10px;
   }
+
+  
 }

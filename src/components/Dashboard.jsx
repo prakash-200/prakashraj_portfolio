@@ -77,7 +77,7 @@ function Dashboard() {
                         animate={{ y: 0, x: 0 }}
                         transition={{ duration: 1 }} className='border border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
                         <FontAwesomeIcon icon={faYinYang} spin />
-                        <p className='fs-6 m-auto'>click here</p>
+                        <p className='fs-5'>click here</p>
                     </motion.button> : <motion.div initial={{ y: -900 }}
                         animate={{ y: 0 }}
                         transition={{ duration: 1 }} className="card bg-transparent">
@@ -123,7 +123,7 @@ function Dashboard() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ delay: 3.0, duration: 1, ease: "easeInOut" }}
                     >
-                        <a href="https://www.linkedin.com/in/prakashraj200/" className={toggle ? 'text-dark px-2' : 'color2 px-2'} target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
+                        <a href="https://www.instagram.com/coding__luv/" className={toggle ? 'text-dark px-2' : 'color2 px-2'} target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
                     </motion.button>
                     <p className={toggle ? 'db-vertical text-dark line' : 'db-vertical color2 line'}>________________</p>
                 </motion.div>
@@ -131,7 +131,7 @@ function Dashboard() {
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
-                    <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style db-btn-hover text-dark' : 'font-sm text-decoration-none db-text-style db-btn-hover color2'}>About</Link>
+                    <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style text-dark db-hover' : 'db-hover font-sm text-decoration-none db-text-style color2'}>About</Link>
                 </motion.div>
 
                 <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
@@ -139,7 +139,7 @@ function Dashboard() {
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     
 
-                    <Link to="/skill" className='font-sm text-decoration-none db-text-style db-btn-hover text-dark'>Skills</Link>
+                    <Link to="/skill" className='font-sm text-decoration-none db-text-style text-dark db-hover'>Skills</Link>
                 </motion.div>
 
                 <div className="col p-2">

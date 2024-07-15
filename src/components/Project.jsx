@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const cards = [
   {
     frontContent: <div><h1>Static Resume</h1><p>I have developed a static resume to showcase my skills, academic background, projects, and more. This resume is built using HTML for structure and CSS for styling, ensuring a clean and professional presentation.</p></div>,
-    backContent: <div><img src={images[6]} /><center><hr /></center><p>#HTML &nbsp; #CSS &nbsp; #Responsive</p><div className='pjt-card-btn'><button><a href='https://prakash-200.github.io/Resume_using_HTML_CSS/' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/Resume_using_HTML_CSS' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
+    backContent: <div><img src={images[6]} /><center><hr style={{ color: "white" }} /></center><p>#HTML &nbsp; #CSS &nbsp; #Responsive</p><div className='pjt-card-btn'><button><a href='https://prakash-200.github.io/Resume_using_HTML_CSS/' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/Resume_using_HTML_CSS' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 
   {
@@ -72,6 +72,8 @@ const cards = [
 
 function Project() {
 
+  console.log(cards)
+
   const carouselRef = useRef(null);
 
   const onMouseDown = (e) => {
@@ -96,12 +98,6 @@ function Project() {
     carouselRef.current.scrollLeft = carouselRef.current.scrollLeft - walk;
   };
 
-  const [toggle, setToggle] = useState(true);
-
-  const handleToggle = () => {
-    setToggle(!toggle)
-  }
-
   return (
 
 
@@ -114,7 +110,7 @@ function Project() {
           </Link>
         </div>
       </div>
-      <div className="row">
+      <div className="row h-50">
         <div
           className="carousel-container"
           ref={carouselRef}
@@ -130,6 +126,7 @@ function Project() {
               backContent={card.backContent}
             />
           ))}
+          
         </div>
       </div>
       <div className="row">
@@ -156,7 +153,7 @@ function Project() {
               animate={{ scale: [1, 1.5, 1] }}
               transition={{ delay: 3.0, duration: 1, ease: "easeInOut" }}
             >
-              <a href="https://www.linkedin.com/in/prakashraj200/" className='text-light px-4' target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
+              <a href="https://www.instagram.com/coding__luv/" className='text-light px-4' target='_blank'><FaInstagramSquare className='db-btn-hover' /></a>
             </motion.button>
             <p className='db-vertical px-3'>______________________</p>
           </motion.div>

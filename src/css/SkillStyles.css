@@ -23,6 +23,10 @@
   font-size: xx-large;
 }
 
+.skl-btn{
+  border: 2px solid black;
+}
+
 .skl-footer {
   height: 100%;
 }
@@ -30,6 +34,7 @@
 .skl-link {
   position: static;
 }
+
 
 .card2:hover,
 .card1:hover {
@@ -47,17 +52,13 @@
     flex-wrap: wrap;
   }
 
-  .skl-btn{
-    border: 2px solid black;
-  }
-
   .card1,
   .card2 {
     padding: 20px;
     border: 2px solid black;
     background-color: #fcf6f4;
     border-radius: 10px;
-    /* height: 350px; */
+    
     width: 80%;
   }
 
