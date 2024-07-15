@@ -128,13 +128,13 @@ function Dashboard() {
                     <p className={toggle ? 'db-vertical text-dark line' : 'db-vertical color2 line'}>________________</p>
                 </motion.div>
 
-                <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
+                <motion.div className="col db-bd p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     <Link to="/about" className={toggle ? 'font-lg text-decoration-none db-text-style text-dark db-hover' : 'db-hover font-sm text-decoration-none db-text-style color2'}>About</Link>
                 </motion.div>
 
-                <motion.div className="col p-4 fs-4" initial={{ y: 100 }}
+                <motion.div className="col db-bd p-4 fs-4" initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                     
