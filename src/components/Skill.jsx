@@ -25,7 +25,7 @@ function Skill() {
           </Link>
         </div>
       </div>
-      <div className="row skl-footer">
+      <div className="row skl-footer bg-info">
         <div className="col col-sm-2 col-lg-1 skl-link align-self-end">
           <motion.div className="col" initial={{ y: 300 }}
             animate={{ y: 0 }}

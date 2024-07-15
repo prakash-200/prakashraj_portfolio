@@ -72,8 +72,6 @@ const cards = [
 
 function Project() {
 
-  console.log(cards)
-
   const carouselRef = useRef(null);
 
   const onMouseDown = (e) => {
@@ -102,7 +100,7 @@ function Project() {
 
 
     <div className="pjt">
-      <div className="row">
+      <div className="row bg-primary">
         <div className="col-6 pjt-name">JP</div>
         <div className="col-6 db-btn">
           <Link to="/" className='db-arrow-btn' style={{ color: "black", backgroundColor: "white", padding: 5, borderRadius: 50 }}>
@@ -110,7 +108,8 @@ function Project() {
           </Link>
         </div>
       </div>
-      <div className="row h-50">
+
+      <div className="row h-50 bg-secondary">
         <div
           className="carousel-container"
           ref={carouselRef}
@@ -129,9 +128,10 @@ function Project() {
           
         </div>
       </div>
+
       <div className="row">
-        <div className="col-3">
-          <motion.div className="col" initial={{ y: 300 }}
+        <div className="col-3 bg-info d-flex pjt-footer">
+          <motion.div className="pjt-footer2 bg-warning" initial={{ y: 300 }}
             animate={{ y: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}>
             <motion.button className='border border-0 bg-transparent fs-2'

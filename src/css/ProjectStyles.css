@@ -57,6 +57,16 @@
     opacity: .5;
   }
 
+  .pjt-footer{
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .pjt-footer2{
+    /* position: relative;
+    bottom: 0px; */
+  }
+
 @media only screen and (max-width: 415px)  {
     .abt-col p{
         font-size: 40px;
