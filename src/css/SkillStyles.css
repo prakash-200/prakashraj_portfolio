@@ -37,8 +37,8 @@
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-.card2:hover,
-.card1:hover {
+.cd2:hover,
+.cd1:hover {
   background-color: #444342;
   color: white;
 }
@@ -54,24 +54,22 @@
     gap: 40px;
   }
 
-  .card1,
-  .card2 {
+  .cd1,
+  .cd2 {
     padding: 20px;
     border: 2px solid black;
     background-color: #fcf6f4;
     border-radius: 10px;
-    
-    width: 80%;
+    width: 90%;
   }
 
-  .card1{
-    height: 330px;
+  .cd1{
+    height: 300px;
     margin-bottom: 50px;
   }
 
-  .card2{
-    margin-top: -100px;
-    height: 400px;
+  .cd2{
+    height: 350px;
     margin-bottom: 100px;
   }
 
@@ -109,8 +107,8 @@
     gap: 10px;
   }
 
-  .card1,
-  .card2 {
+  .cd1,
+  .cd2 {
     padding: 20px;
     border: 2px solid black;
     background-color: #fcf6f4;
@@ -120,8 +118,8 @@
     margin: 30px;
   }
 
-  .card1 p:first-child,
-  .card2 p:first-child {
+  .cd1 p:first-child,
+  .cd2 p:first-child {
     font-size: xx-large;
     font-family: "Irish Grover", system-ui;
     font-weight: 400;
