@@ -12,7 +12,7 @@ function About() {
   return (
     <div className="abt d-flex flex-column">
 
-      <div className="row">
+      <div className="row abt-header bg-primary">
         <div className='col'>
           <p className="text-light abt-name p-3">JP</p>
         </div>
@@ -24,12 +24,20 @@ function About() {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row abt-content bg-warning">
         <p className='abt-about'>ABOUT</p>
       </div>
 
-      <div className="row d-flex abt-footer">
-        <div className="col-3 align-self-end abt-link">
+<div className="row abt-footer bg-secondary">
+  <div className="col col-2 bg-light"></div>
+  <div className="col col-10 bg-dark">
+    <p className='text-info para-div'>I'm a recent graduate with a BTech in Information Technology. Throughout my academic journey, I have developed a deep passion for coding and have acquired proficiency in web development. My hands-on experience extends to developing several projects.<br /><br />
+            My enthusiasm for technology drives me to continuously learn and adapt to new advancements in the field. I enjoy exploring innovative solutions and tackling complex problems, which has fostered a strong problem-solving mindset.<br /><br />
+            With a strong foundation in information technology and a relentless passion for coding, I am ready to embark on a rewarding career and make meaningful contributions to the tech industry.</p>
+  </div>
+</div>
+      {/* <div className="row d-flex abt-footer bg-secondary">
+        <div className="col-3 align-self-end abt-link bg-info">
           <motion.div className="col" initial={{ y: 300 }}
             animate={{ y: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}>
@@ -54,14 +62,14 @@ function About() {
             <p className='db-vertical px-3 text-light'>______________________</p>
           </motion.div>
         </div>
-        <div className="col-9 abt-para">
+        <div className="col-9 abt-para bg-dark">
 
           <p className='fade-in para-div'>I'm a recent graduate with a BTech in Information Technology. Throughout my academic journey, I have developed a deep passion for coding and have acquired proficiency in web development. My hands-on experience extends to developing several projects.<br /><br />
             My enthusiasm for technology drives me to continuously learn and adapt to new advancements in the field. I enjoy exploring innovative solutions and tackling complex problems, which has fostered a strong problem-solving mindset.<br /><br />
             With a strong foundation in information technology and a relentless passion for coding, I am ready to embark on a rewarding career and make meaningful contributions to the tech industry.
           </p>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );
