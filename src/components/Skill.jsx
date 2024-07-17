@@ -25,8 +25,8 @@ function Skill() {
           </Link>
         </div>
       </div>
-      <div className="row skl-footer bg-warning">
-        <div className="col col-2 align-self-end">
+      <div className="row skl-footer">
+        <div className="col col-2 skl-link align-self-end">
           <motion.div className="col" initial={{ y: 300 }}
             animate={{ y: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}>
@@ -52,7 +52,7 @@ function Skill() {
           </motion.div>
         </div>
         <div className="col col-10 skl-card">
-          <motion.div className="col-lg-5 col-md-5 col-sm-10 cd1" initial={{ y: 900 }}
+          <motion.div className="c1" initial={{ y: 900 }}
                         animate={{ y: 0 }}
                         transition={{ duration: 1 }}>
             <p><FaLaptopCode className='skl-icon' /><span className='px-3'>Software Developer</span>
@@ -65,7 +65,7 @@ function Skill() {
               <li className='skl-ff'>VS Code, Eclipse, Postman</li>
             </ol>
           </motion.div>
-          <motion.div className="col-lg-5 col-md-5 col-sm-10 cd2" initial={{ y: -900 }}
+          <motion.div className="c2" initial={{ y: -900 }}
                         animate={{ y: 0 }}
                         transition={{ duration: 1 }}>
             <p><FontAwesomeIcon className='skl-icon' icon={faPalette} />
@@ -77,6 +77,7 @@ function Skill() {
             <p className='skl-ff2'>TOOLS</p>
             <p className='skl-ff'>VS Code, GitHub</p>
           </motion.div>
+          
         </div>
       </div>
     </div>
@@ -84,3 +85,4 @@ function Skill() {
 }
 
 export default Skill
+

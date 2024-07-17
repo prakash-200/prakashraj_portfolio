@@ -18,7 +18,8 @@
 }
 
 .skl-footer{
-  height: 90%;
+  overflow-y: hidden;
+  background-color: #fcf6f4;
 }
 
 .skl-name {
@@ -37,44 +38,35 @@
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-.cd2:hover,
-.cd1:hover {
+.c2:hover,
+.c1:hover {
   background-color: #444342;
   color: white;
 }
 
+.c1, .c2{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+    background-color: #fcf6f4;
+}
+
+.c{
+  background-color: aqua;
+  width: max-content;
+}
+
 @media only screen and (max-width: 800px) {
-  .skl-footer {
-    height: 90%;
-  }
 
   .skl-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-  }
-
-  .cd1,
-  .cd2 {
+    gap: 10px;
     padding: 20px;
-    border: 2px solid black;
-    background-color: #fcf6f4;
-    border-radius: 10px;
-    width: 90%;
   }
 
-  .cd1{
-    height: 300px;
-    margin-bottom: 50px;
-  }
-
-  .cd2{
-    height: 350px;
-    margin-bottom: 100px;
-  }
-
-  .card1 p:first-child,
-  .card2 p:first-child {
+  .c1 p:first-child,
+  .c2 p:first-child {
     font-size: medium;
     font-family: "Irish Grover", system-ui;
     font-weight: 400;
@@ -84,14 +76,14 @@
   .skl-ff{
     font-family: 'Courier New', Courier, monospace;
     font-size: smaller;
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .skl-ff2{
     font-weight: bold;
     font-size: small;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .skl-icon{
