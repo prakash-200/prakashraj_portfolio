@@ -25,8 +25,8 @@ function Skill() {
           </Link>
         </div>
       </div>
-      <div className="row skl-footer">
-        <div className="col col-sm-2 col-lg-1 skl-link align-self-end">
+      <div className="row skl-footer bg-warning">
+        <div className="col col-2 align-self-end">
           <motion.div className="col" initial={{ y: 300 }}
             animate={{ y: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}>
@@ -51,7 +51,7 @@ function Skill() {
             <p className='db-vertical px-3 text-dark'>______________________</p>
           </motion.div>
         </div>
-        <div className="col-10 skl-card">
+        <div className="col col-10 skl-card">
           <motion.div initial={{ y: 900 }}
                         animate={{ y: 0 }}
                         transition={{ duration: 1 }} className="card1">

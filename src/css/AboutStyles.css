@@ -34,18 +34,6 @@
   font-style: normal;
 }
 
-/* .abt-link {
-  position: absolute;
-  bottom: 0;
-} */
-
-/* .abt-para {
-  padding-left: 20%;
-  width: 80%;
-  position: relative;
-  top: 80px;
-} */
-
 .scale-on-hover:hover{
   transform: scale(1.2);
   cursor: pointer;
@@ -55,19 +43,6 @@
   transform: scale(1.1);
   cursor: pointer;
 }
-
- /* .abt-para p {
-  height: 100%;
-  padding: 50px 20px;
-  color: white;
-  text-indent: 20px;
-  background-color: rgba(0, 0, 0, 0.5); 
-  backdrop-filter: blur(3px);
-  font-family: "Cormorant Upright", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: x-large;
-} */
 
 .para-div {
   border: 2px solid white;
@@ -102,6 +77,9 @@
   animation: fadeIn 3s ease-in forwards;
 }
 
+.abt-icon:hover{
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1; 
@@ -114,20 +92,9 @@
     padding-left: 50px;
   }
 
-  /* .abt-para {
-    width: 90%;
-    height: 100%;
-  }
-
-  .abt-para p {
-    font-size: 17px;
-    padding: 30px 20px;
-  } */
-
   .para-div {
     width: 90%;
     font-size: smaller;
   }
 
-  
 }

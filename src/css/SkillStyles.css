@@ -37,11 +37,6 @@
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-.skl-link {
-  position: static;
-}
-
-
 .card2:hover,
 .card1:hover {
   background-color: #444342;
@@ -56,7 +51,7 @@
   .skl-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 40px;
   }
 
   .card1,
