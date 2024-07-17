@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import resume from '../assets/Prakashraj_J-Resume.pdf';
 import { Link } from 'react-router-dom'
 import avatar from '../assets/Avatar1.png'
+import rope from '../assets/200.gif'
 
 function Dashboard() {
 
@@ -82,15 +83,17 @@ function Dashboard() {
                         <FontAwesomeIcon icon={faYinYang} spin />
                         <p className='fs-5'>click here</p>
                     </motion.button> : 
+                    <motion.div className="div" initial={{ y: -900 }} animate={{ y: 0 }} transition={{ duration: 1 }}>
+                        <img className='db-rope' src={rope} />
                     <motion.div initial={{ y: -900 }}
-                        animate={{ y: 0, rotate: [0, 15, -15, 15, -15, 0] }}
-                        transition={{ y:{duration: 1}, rotate: {
-                            duration: 2,
-                            ease: "easeInOut",
-                            repeat: Infinity,
-                            repeatType: "loop"
-                          } }} className="cd">
-                        <div className="card-left p-4">
+                    animate={{ y: 0, rotate: [0, 15, -15, 15, -15, 0] }}
+                    transition={{ y:{duration: 1}, rotate: {
+                        duration: 2,
+                        ease: "easeInOut",
+                        repeat: Infinity,
+                        repeatType: "loop"
+                    } }} className="cd">
+                        <div className="card-left p-4 ">
                             <h1>Hi,</h1>
                             <h3>I'm Prakashraj</h3>
                             <h6>Driven by a love for software development, keen to grow and eager to turn my passion into impactful full-time work.</h6>
@@ -98,6 +101,7 @@ function Dashboard() {
                         <div className="card-right">
                             <img src={avatar} alt="" />
                         </div>
+                    </motion.div>
                     </motion.div>}
 
                 </div>
