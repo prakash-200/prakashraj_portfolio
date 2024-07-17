@@ -28,27 +28,27 @@ const cards = [
   },
 
   {
-    frontContent: <div><h1>Calculator</h1><p>I developed a calculator app using HTML, CSS, JavaScript, and Bootstrap. This app provides a user-friendly interface with responsive design, enabling seamless calculation operations across all devices.</p></div>,
+    frontContent: <div><h1>Calculator</h1><p>I developed a calculator app using HTML, CSS, JavaScript, and Bootstrap. This app provides a user-friendly interface with responsive design.</p></div>,
     backContent: <div><img src={images[0]} /><center><hr /></center><p>#HTML &nbsp; #CSS &nbsp; #JavaScript</p><div className='pjt-card-btn'><button><a href='https://prakash-200.github.io/Calculator/' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/Calculator' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 
   {
-    frontContent: <div><h1>Netflix Clone</h1><p>I developed a Netflix clone web application using Angular and integrated Firebase API for user authentication and session management. The app replicates key features of Netflix with a responsive design.</p></div>,
+    frontContent: <div><h1>Netflix Clone</h1><p>I developed a Netflix clone web application using Angular and integrated Firebase API for user authentication and session management.</p></div>,
     backContent: <div><img src={images[5]} /><center><hr /></center><p>#Angular &nbsp; #Firebase API &nbsp; #Bootstrap</p><div className='pjt-card-btn'><button><a href='https://github.com/prakash-200/NETFLIX-CLONE1' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/NETFLIX-CLONE1' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 
   {
-    frontContent: <div><h1>Firebase API Integration</h1><p>I successfully integrated Firebase API to enable seamless user login and registration functionalities. This integration enhances security and user experience by leveraging Firebase's authentication services.</p></div>,
+    frontContent: <div><h1>Firebase API Integration</h1><p>I successfully integrated Firebase API to enable seamless user login and registration functionalities.</p></div>,
     backContent: <div><img src={images[4]} /><center><hr /></center><p>#Firease API &nbsp; #HTML &nbsp; #CSS &nbsp; #TypeScript</p><div className='pjt-card-btn'><button><a href='https://github.com/prakash-200/loginRegister' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/loginRegister' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 
   {
-    frontContent: <div><h1>Day Cycle Animation</h1><p>I created an animation depicting a day cycle, featuring sunrise, sunset, moonrise, and moonset effects using HTML and CSS animations. This project demonstrates showcasing a visually dynamic representation of natural phenomena.</p></div>,
+    frontContent: <div><h1>Day Cycle Animation</h1><p>I created an animation depicting a day cycle, featuring sunrise, sunset, moonrise, and moonset effects using HTML and CSS animations.</p></div>,
     backContent: <div><img src={images[2]} /><center><hr /></center><p>#HTML &nbsp; #CSS </p><div className='pjt-card-btn'><button><a href='https://prakash-200.github.io/Day-Lifecycle/' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/Day-Lifecycle' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 
   {
-    frontContent: <div><h1>Java Problems</h1><p>I have solved various Java problems focusing on strings, arrays, collections, and more. These exercises have enhanced my problem-solving skills and deepened my understanding of Java programming concepts.</p></div>,
+    frontContent: <div><h1>Java Problems</h1><p>I have solved various Java problems focusing on strings, arrays, collections, and more. These exercises have enhanced my problem-solving skills.</p></div>,
     backContent: <div><img src={images[3]} /><center><hr /></center><p>#Java &nbsp; #Problem Solving &nbsp; #String &nbsp; #Array &nbsp; #Collections</p><div className='pjt-card-btn'><button><a href='https://github.com/prakash-200/Java_programs' target='_blank' style={{ textDecoration: "none", color: "black" }}>Visit</a></button><a href='https://github.com/prakash-200/Java_programs' target='_blank'><FaGithub style={{ color: "#ffff", fontSize: "200%" }} /></a></div></div>
   },
 

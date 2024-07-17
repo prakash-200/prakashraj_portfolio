@@ -75,14 +75,21 @@ function Dashboard() {
                 </motion.div>
 
                 <div className="col col-8 d-flex justify-content-center align-items-center">
-                    {toggle ? <motion.button initial={{ y: 900, x: 300 }}
+                    {toggle ? 
+                    <motion.button initial={{ y: 900, x: 300 }}
                         animate={{ y: 0, x: 0 }}
                         transition={{ duration: 1 }} className='border border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
                         <FontAwesomeIcon icon={faYinYang} spin />
                         <p className='fs-5'>click here</p>
-                    </motion.button> : <motion.div initial={{ y: -900 }}
-                        animate={{ y: 0 }}
-                        transition={{ duration: 1 }} className="card">
+                    </motion.button> : 
+                    <motion.div initial={{ y: -900 }}
+                        animate={{ y: 0, rotate: [0, 15, -15, 15, -15, 0] }}
+                        transition={{ y:{duration: 1}, rotate: {
+                            duration: 2,
+                            ease: "easeInOut",
+                            repeat: Infinity,
+                            repeatType: "loop"
+                          } }} className="cd">
                         <div className="card-left p-4">
                             <h1>Hi,</h1>
                             <h3>I'm Prakashraj</h3>

@@ -167,10 +167,20 @@
     font-size: 80px;
   }
 
-  .card {
+  .cd {
     height: 300px;
     width: 100%;
     position: relative;
+  }
+
+  .cd {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
   }
 
   .card-left {
