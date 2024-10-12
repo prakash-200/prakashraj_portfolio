@@ -10,6 +10,8 @@ import yamaha from '../src/assets/ProjectImages/yamaha.png'
 import portfolio from '../src/assets/ProjectImages/portfolio.png'
 import oppo from '../src/assets/ProjectImages/Oppo.png'
 import google from '../src/assets/ProjectImages/google.png'
+import pos from '../src/assets/ProjectImages/pos.png'
+import kanban from '../src/assets/ProjectImages/kanban.png'
 
 const images = [
     calc,
@@ -22,7 +24,9 @@ const images = [
     yamaha,
     portfolio,
     oppo,
-    google
+    google,
+    pos,
+    kanban
 ]
 
 export default images;
