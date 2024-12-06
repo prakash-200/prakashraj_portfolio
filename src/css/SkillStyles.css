@@ -10,7 +10,7 @@
 .skl {
   height: 100vh;
   width: 100%;
-  background-color: #fcf6f4;
+  /* background-color: #fcf6f4; */
 }
 
 .skl-header {
@@ -20,6 +20,10 @@
 .skl-footer{
   position: absolute;
   bottom: 0px;
+}
+
+.skl-content{
+  color: #444342;
 }
 
 .skl-name {
