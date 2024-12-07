@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Russo+One&display=swap");
+  
+
+.abt * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  /* Foreground Content */
+  .abt {
+    position: absolute;
+    background: transparent;
+    z-index: 1; /* Ensure content is above the particles */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* padding: 20px; */
+  }
+  
+  
+.abt-name {
+    font-family: "Allura", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  
+  .abt-about {
+    padding-left: 50px;
+    font-size: 100px;
+    color: white;
+    opacity: 0.4;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .scale-on-hover:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .abt-arrow:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .para-div {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 75%;
+    padding: 50px 20px;
+    color: white;
+    text-indent: 20px;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+  }
+  
+  .abt-header{
+    height: 10%;
+  }
+  
+  .abt-content{
+    height: 10%;
+  }
+  
+  .abt-footer {
+    height: 80%;
+    padding-top: 20px;
+    overflow: hidden;
+  }
+  
+  .fade-in {
+    opacity: 0; 
+    animation: fadeIn 3s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; 
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .abt-about {
+      font-size: 50px;
+      padding-left: 50px;
+    }
+  
+    .para-div {
+      width: 90%;
+      font-size: smaller;
+    }
+  
+  }
+  

@@ -12,9 +12,10 @@
 }
 
 .abt {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
+  position: absolute;
+  /* height: 100vh;
+  width: 100vw; */
+  /* background-color: black; */
 }
 
 .abt-name {
@@ -58,15 +59,15 @@
 }
 
 .abt-header{
-  height: 10%;
+  height: 10vh;
 }
 
 .abt-content{
-  height: 10%;
+  height: 20vh;
 }
 
 .abt-footer {
-  height: 80%;
+  height: 70vh;
   padding-top: 20px;
   overflow: hidden;
 }
