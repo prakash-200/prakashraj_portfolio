@@ -102,10 +102,10 @@ function About() {
       <p className='db-vertical px-3 text-light'>______________________</p>
     </motion.div>
   </div>
-  <div className="col col-10 align-self-start">
-    <p className='text-light para-div fade-in' style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>I'm a recent graduate with a BTech in Information Technology. Throughout my academic journey, I have developed a deep passion for coding and have acquired proficiency in web development. My hands-on experience extends to developing several projects.<br /><br />
-      My enthusiasm for technology drives me to continuously learn and adapt to new advancements in the field. I enjoy exploring innovative solutions and tackling complex problems, which has fostered a strong problem-solving mindset.<br /><br />
-      With a strong foundation in information technology and a relentless passion for coding, I am ready to embark on a rewarding career and make meaningful contributions to the tech industry.</p>
+  <div className="col col-10 align-self-start ">
+    <p className='text-light para-div fade-in ' style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>Hello! I’m Prakashraj J, a passionate software developer dedicated to crafting efficient and innovative solutions for real-world challenges. I specialize in full-stack development and have a keen interest in automation, focusing on projects that streamline workflows and optimize performance. My current work involves developing cutting-edge automation solutions to drive efficiency in dynamic environments.<br/><br/>
+      I thrive on problem-solving and enjoy exploring new technologies to expand my skill set. Whether it's coding a robust backend, creating user-friendly interfaces, or automating complex tasks, I approach every project with precision and creativity. My experience has equipped me with the ability to think critically, adapt quickly, and deliver impactful results that align with business goals.<br/><br/>
+As someone who loves to learn, I’m always seeking opportunities to grow and innovate. I believe in staying ahead by embracing emerging trends and applying them to create meaningful solutions. Through this portfolio, I aim to showcase my journey, skills, and the projects I’ve undertaken. Let’s connect and collaborate to turn ideas into reality!</p>
   </div>
 </div>
 

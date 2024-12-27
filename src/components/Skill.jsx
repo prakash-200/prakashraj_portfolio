@@ -127,13 +127,15 @@ function Skill() {
                 <span className="px-3">Software Developer</span>
               </p>
               <p className="skl-ff">
-                I enjoy writing clean code and creating useful products.
+                I love to leverage technology to solve real-world problems by creating innovative and efficient software solutions.
               </p>
               <p className="skl-ff2">I LIKE TO CODE IN</p>
-              <p className="skl-ff">Java, Javascript, MySQL, C, C++</p>
+              <p className="skl-ff">Java, JavaScript, MySQL</p>
+              <p className="skl-ff2">AUTOMATION</p>
+              <p className="skl-ff">Zapier, Make.com, Python</p>
               <p className="skl-ff2">TOOLS</p>
               <ol>
-                <li className="skl-ff">VS Code, Eclipse, Postman</li>
+                <li className="skl-ff">VS Code, Eclipse, Pycharm Postman</li>
               </ol>
             </motion.div>
             <motion.div
@@ -153,7 +155,7 @@ function Skill() {
               </p>
               <p className="skl-ff2">SKILLS</p>
               <p className="skl-ff">
-                Html, Css, Js, React, Angular, Tailwind CSS, Bootstrap, Firebase
+                Html, Css, Js, jQuery, React, Angular, Tailwind CSS, Bootstrap, Firebase
               </p>
               <p className="skl-ff2">TOOLS</p>
               <p className="skl-ff">VS Code, GitHub</p>
