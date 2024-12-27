@@ -15,6 +15,18 @@
     overflow: hidden;
 }
 
+/* .pjt-nav{
+    height: 5%;
+}
+
+.pjt-content{
+    height: 50%;
+}
+
+.pjt-footer{
+    height: 45%;
+} */
+
 .pjt h1{
     font-size: x-large;
 }
@@ -82,3 +94,16 @@
         font-size: 50px;
     }
 }
+
+.pjt-footer-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh; 
+  }
+  
+  .pjt-footer {
+    position: absolute;
+    top: 13%;
+  }

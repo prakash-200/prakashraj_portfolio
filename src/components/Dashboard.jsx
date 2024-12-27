@@ -43,7 +43,7 @@ function Dashboard() {
         <div className={toggle ? "db-page" : "db-page2 db-page3"}>
 
             {/* Dashboard Nav Bar */}
-            <div className="row p-2">
+            <div className="row db-nav p-2">
                 <div className='col'>
                     <p className={toggle ? "col db-name text-dark" : "col db-name text-white"}>JP</p>
                 </div>
@@ -68,7 +68,7 @@ function Dashboard() {
             </div>
 
             {/* Dashboard Content */}
-            <div className="row h-50">
+            <div className="row db-content">
                 <motion.div className="col col-2 text-start py-4" initial={{ x: -100 }}
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
@@ -79,9 +79,9 @@ function Dashboard() {
                     {toggle ? 
                     <motion.button initial={{ y: 900, x: 300 }}
                         animate={{ y: 0, x: 0 }}
-                        transition={{ duration: 1 }} className='border border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
+                        transition={{ duration: 1 }} className='border d-flex flex-column align-items-center border-0 bg-transparent db-spin-btn' onClick={handleToggle}>
                         <FontAwesomeIcon icon={faYinYang} spin />
-                        <p className='fs-5'>click here</p>
+                        <h3 className='pt-2 clk'>click here</h3>
                     </motion.button> : 
                     <motion.div className="div" initial={{ y: -900 }} animate={{ y: 0 }} transition={{ duration: 1 }}>
                         <img className='db-rope' src={rope} />
@@ -114,8 +114,8 @@ function Dashboard() {
             </div>
 
             {/* Dashboard Footer */}
-            <div className="row db-footer p-3 d-flex align-items-end">
-                <motion.div className="col" initial={{ y: 300 }}
+            <div className="row db-footer d-flex align-items-end">
+                <motion.div className="col ps-3" initial={{ y: 300 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 100 }}>
                     <motion.button className='border border-0 bg-transparent fs-2'
