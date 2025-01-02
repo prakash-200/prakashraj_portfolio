@@ -64,7 +64,7 @@
 }
 
 .db-nav{
-  height: 5%;
+  height: 10%;
 }
 
 .db-content{
@@ -72,7 +72,7 @@
 }
 
 .db-footer {
-  height: 45%;
+  height: 40%;
   position: static;
   overflow: hidden;
 }

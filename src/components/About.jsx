@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import Header from "./Header";
 
 function About() {
   useEffect(() => {
@@ -59,16 +60,8 @@ function About() {
       }}
     >
       <div className="abt d-flex flex-column">
-        <div className="row abt-header">
-          <div className="col">
-            <p className="text-light abt-name p-3">JP</p>
-          </div>
-          <div className="col text-start p-4">
-            <Link to="/" className="abt-arrow text-dark p-2 rounded-5 bg-white">
-              <FontAwesomeIcon className="abt-arrow" icon={faArrowLeft} />
-            </Link>
-          </div>
-        </div>
+
+        <Header />
 
         <div className="row abt-content">
           <p className="abt-about text-start">ABOUT</p>

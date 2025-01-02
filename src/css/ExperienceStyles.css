@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+.exp{
+    overflow: hidden;
+}
+
+.points{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;;
+}
+
+h3{
+  font-family: "Odibee Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.place{
+    font-size: large;
+}
+
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.company span{
+    color: rgb(94, 93, 93);
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.exp img{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media only screen and (max-width: 576px){
+    .place{
+        font-size: small;
+    }
+
+    .company{
+        padding-top: 5px;
+        font-size: small;
+    }
+
+    li{
+        font-size: smaller;
+    }
+}
+

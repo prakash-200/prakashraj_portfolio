@@ -13,10 +13,6 @@
   /* background-color: #fcf6f4; */
 }
 
-.skl-header {
-  height: 10%;
-}
-
 .skl-footer{
   position: absolute;
   bottom: 0px;
@@ -24,13 +20,6 @@
 
 .skl-content{
   color: #444342;
-}
-
-.skl-name {
-  font-family: "Allura", cursive;
-  font-weight: 800;
-  font-style: normal;
-  font-size: xx-large;
 }
 
 .skl-btn{

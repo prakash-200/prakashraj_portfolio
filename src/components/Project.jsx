@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import SlideCard from "./SlideCard";
 import images from "../ProjectImg";
 import { Link } from "react-router-dom";
+import Header from "./Header";
 
 const cards = [
   {
@@ -535,14 +536,8 @@ function Project() {
 
   return (
     <div className="pjt">
-      <div className="row pjt-nav">
-        <div className="col pjt-name">JP</div>
-        <div className="col text-start p-4">
-          <Link to="/" className="abt-arrow text-dark p-2 rounded-5 bg-white">
-            <FontAwesomeIcon className="db-arrow" icon={faArrowLeft} />
-          </Link>
-        </div>
-      </div>
+
+      <Header />
 
       <div className="row h-50 pjt-content">
         <div

@@ -1,0 +1,43 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Russo+One&display=swap");
+
+.header-name {
+    color: transparent; /* Make text transparent */
+    font-family: "Allura", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(243, 243, 158, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%; /* Double the width to ensure smooth movement */
+    background-clip: text; /* Clip the background to text */
+    -webkit-background-clip: text; /* For Safari */
+    animation: shine 2s infinite; /* Apply the animation */
+}
+
+@keyframes shine {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.header-name:hover {
+    color: gold; /* Optional: Changes text color on hover */
+}
+
+.header {
+    height: 10%;
+}
+
+.header-arrow:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

@@ -5,6 +5,7 @@ import { faArrowLeft, faPalette } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaInstagramSquare, FaLaptopCode } from "react-icons/fa";
+import Header from "./Header";
 
 function Skill() {
   const canvasRef = useRef(null);
@@ -103,16 +104,9 @@ function Skill() {
         }}
       >
         <div className="skl" style={{ position: "relative", zIndex: 1 }}>
-        <div className="row skl-header">
-          <div className="col">
-            <p className="skl-name p-3 " style={{ color: "#fcf6f4" }}>JP</p>
-          </div>
-          <div className="col text-start p-4">
-            <Link to="/" className="abt-arrow text-dark p-2 rounded-5 bg-white skl-btn">
-              <FontAwesomeIcon className="abt-arrow" icon={faArrowLeft} />
-            </Link>
-          </div>
-        </div>
+          
+        <Header />
+
         <div className="row skl-content">
           <div className="col col-1 col-md-1 skl-link align-self-end"></div>
           <div className="col col-10 skl-card">
