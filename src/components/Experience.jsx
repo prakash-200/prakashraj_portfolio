@@ -20,13 +20,13 @@ function Experience() {
   const experienceData = [
     {
       type: "work",
-      date: "Oct 2024 - present",
-      title: "Web Developer",
+      date: "Oct 2024 - Mar 2025",
+      title: "Software Engineer Intern",
       company: "EKA Hr Consulting Pvt Ltd",
       subtitle: "Tiruchengode, Tamil Nadu",
       description: [
-        "Currently engaged in <strong> automation projects, optimizing workflows and improving operational efficiency </strong> by implementing advanced technological solutions.",
-        "Creating web solutions using <strong> HTML, CSS, JavaScript, and frameworks,</strong> while also building responsive WordPress sites with builders like<strong> Divi, Elementor, and Oxygen. </strong>",
+        "Currently engaged in <strong> automation projects such as Web Scrape, Mail & WP Automation, optimizing workflows and improving operational efficiency </strong> by implementing advanced technological solutions.",
+        "Creating web solutions using <strong> HTML, CSS, JavaScript, and frameworks,</strong> while also building responsive WordPress sites with builders like<strong> Divi, Elementor, Oxygen and Enhancing SEO performance. </strong>",
       ],
       iconStyle: { background: "rgb(12, 248, 0)", color: "#000" },
       img: eka,

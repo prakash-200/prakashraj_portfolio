@@ -15,35 +15,29 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Static Resume</h1>
+        <h1>WhatsApp Automation</h1>
         <p>
-          I have developed a static resume to showcase my skills, academic
-          background, projects, and more. This resume is built using HTML for
-          structure and CSS for styling, ensuring a clean and professional
-          presentation.
+        Automating WhatsApp responses using Python involves fetching unread emails via Selenium, generating replies with OpenAI, and sending automated responses. This streamlines email handling and enhances efficiency.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[6]} loading="lazy"/>
+        <img src={images[15]} loading="lazy"/>
         <center>
-          <hr style={{ color: "white" }} />
+          <hr />
         </center>
-        <p>#HTML &nbsp; #CSS &nbsp; #Responsive</p>
+        <p>#Python &nbsp; #Selenium &nbsp; #OpenAI &nbsp;</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open(
-                "https://prakash-200.github.io/Resume_using_HTML_CSS/",
-                "_blank"
-              )
+              window.open("https://github.com/prakash-200/WhatsAppAutomation", "_blank")
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/Resume_using_HTML_CSS"
+            href="https://github.com/prakash-200/WhatsAppAutomation"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -56,144 +50,29 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Yamaha Resposive Site</h1>
+        <h1>Zoho Mail Automation</h1>
         <p>
-          I developed a responsive site to advertise Yamaha brand bikes using
-          HTML, CSS, JavaScript, and Bootstrap. The site is designed to be
-          visually appealing and user-friendly across all devices.
+        Automating Zoho Mail responses using Python involves fetching unread emails via IMAP, generating replies with OpenAI, and sending automated responses. This streamlines email handling and enhances efficiency.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[7]} loading="lazy"/>
+        <img src={images[14]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>#HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #JavaScript </p>
+        <p>#Python &nbsp; #IMAP &nbsp; #OpenAI &nbsp;</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open(
-                "https://prakash-200.github.io/Yamaha_Site/",
-                "_blank"
-              )
-            }
-          >
-            Visit
-          </button>
-          <a href="https://github.com/prakash-200/Yamaha_Site" target="_blank">
-            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
-          </a>
-        </div>
-      </div>
-    ),
-  },
-
-  {
-    frontContent: (
-      <div>
-        <h1>Laravel CRUD App</h1>
-        <p>
-          I developed a project to perform CRUD operations using the Laravel
-          framework. This project demonstrates my ability to create, read,
-          update, and delete records efficiently.
-        </p>
-      </div>
-    ),
-    backContent: (
-      <div>
-        <img src={images[1]} loading="lazy"/>
-        <center>
-          <hr />
-        </center>
-        <p>
-          #Laravel &nbsp; #HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #JavaScript
-        </p>
-        <div className="pjt-card-btn">
-          <button
-            onClick={() =>
-              window.open(
-                "https://github.com/prakash-200/LARAVEL-CRUD",
-                "_blank"
-              )
-            }
-          >
-            Visit
-          </button>
-          <a href="https://github.com/prakash-200/LARAVEL-CRUD" target="_blank">
-            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
-          </a>
-        </div>
-      </div>
-    ),
-  },
-
-  {
-    frontContent: (
-      <div>
-        <h1>Calculator</h1>
-        <p>
-          I developed a calculator app using HTML, CSS, JavaScript, and
-          Bootstrap. This app provides a user-friendly interface with responsive
-          design.
-        </p>
-      </div>
-    ),
-    backContent: (
-      <div>
-        <img src={images[0]} loading="lazy" />
-        <center>
-          <hr />
-        </center>
-        <p>#HTML &nbsp; #CSS &nbsp; #JavaScript</p>
-        <div className="pjt-card-btn">
-          <button
-            onClick={() =>
-              window.open("https://prakash-200.github.io/Calculator/", "_blank")
-            }
-          >
-            Visit
-          </button>
-          <a href="https://github.com/prakash-200/Calculator" target="_blank">
-            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
-          </a>
-        </div>
-      </div>
-    ),
-  },
-
-  {
-    frontContent: (
-      <div>
-        <h1>Netflix Clone</h1>
-        <p>
-          I developed a Netflix clone web application using Angular and
-          integrated Firebase API for user authentication and session
-          management.
-        </p>
-      </div>
-    ),
-    backContent: (
-      <div>
-        <img src={images[5]} loading="lazy"/>
-        <center>
-          <hr />
-        </center>
-        <p>#Angular &nbsp; #Firebase API &nbsp; #Bootstrap</p>
-        <div className="pjt-card-btn">
-          <button
-            onClick={() =>
-              window.open(
-                "https://github.com/prakash-200/NETFLIX-CLONE1",
-                "_blank"
-              )
+              window.open("https://github.com/prakash-200/ZohoMailAutomation", "_blank")
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/NETFLIX-CLONE1"
+            href="https://github.com/prakash-200/ZohoMailAutomation"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -206,33 +85,29 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Firebase API Integration</h1>
+        <h1>Web Scrape</h1>
         <p>
-          I successfully integrated Firebase API to enable seamless user login
-          and registration functionalities.
+        Web scraping across multiple sites using Selenium automates browsers for dynamic content, while BeautifulSoup and Requests extract and parse data efficiently.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[4]} loading="lazy"/>
+        <img src={images[13]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>#Firease API &nbsp; #HTML &nbsp; #CSS &nbsp; #TypeScript</p>
+        <p>#Python &nbsp; #BeautifulSoup &nbsp; #Selenium &nbsp; #Requests &nbsp; #Automa</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open(
-                "https://github.com/prakash-200/loginRegister",
-                "_blank"
-              )
+              window.open("https://github.com/prakash-200/WebScrape", "_blank")
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/loginRegister"
+            href="https://github.com/prakash-200/WebScrape"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -245,25 +120,135 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Day Cycle Animation</h1>
+        <h1>Kanban Board</h1>
         <p>
-          I created an animation depicting a day cycle, featuring sunrise,
-          sunset, moonrise, and moonset effects using HTML and CSS animations.
+          Kanban board using React JS with the DND package, allowing CRUD
+          operations and task management. The board includes features like drop
+          and draggable tasks.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[2]} loading="lazy"/>
+        <img src={images[12]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>#HTML &nbsp; #CSS </p>
+        <p>React &nbsp; #Bootstrap</p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open("https://kanbandb.netlify.app/", "_blank")
+            }
+          >
+            Visit
+          </button>
+          <a
+            href="https://github.com/prakash-200/OPPO-ECommerce"
+            target="_blank"
+          >
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>POS</h1>
+        <p>
+          POS project using React, featuring item management, inventory
+          tracking, and a billing page with stock checks and sales record.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[11]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>#React &nbsp; #Redux-persist &nbsp; #Bootstrap</p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open("https://pos-react.netlify.app", "_blank")
+            }
+          >
+            Visit
+          </button>
+          <a
+            href="https://github.com/prakash-200/OPPO-ECommerce"
+            target="_blank"
+          >
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Google Clone</h1>
+        <p>
+          Developed a Google search engine clone using React and integrated with
+          the Google API.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[10]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>#React &nbsp; #Tailwind CSS &nbsp; #Google API</p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open("https://prakashrajgc.web.app/", "_blank")
+            }
+          >
+            Visit
+          </button>
+          <a
+            href="https://github.com/prakash-200/OPPO-ECommerce"
+            target="_blank"
+          >
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Oppo E-Store</h1>
+        <p>
+          The Oppo e-commerce application is a sophisticated platform developed
+          to facilitate the purchase of Oppo brand mobile phones. Built using
+          the MERN stack (MongoDB, Express.js, React, and Node.js)
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[9]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>#MERN &nbsp; #Bootstrap</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
               window.open(
-                "https://prakash-200.github.io/Day-Lifecycle/",
+                "https://github.com/prakash-200/OPPO-ECommerce",
                 "_blank"
               )
             }
@@ -271,9 +256,46 @@ const cards = [
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/Day-Lifecycle"
+            href="https://github.com/prakash-200/OPPO-ECommerce"
             target="_blank"
           >
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Portfolio</h1>
+        <p>
+          My portfolio website is a comprehensive showcase of my professional
+          journey and expertise, meticulously crafted using HTML, CSS,
+          Bootstrap, and JavaScript.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[8]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>#HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #Javascript</p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open(
+                "https://prakash-200.github.io/My-Portfolio/",
+                "_blank"
+              )
+            }
+          >
+            Visit
+          </button>
+          <a href="https://github.com/prakash-200/My-Portfolio" target="_blank">
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
           </a>
         </div>
@@ -327,63 +349,25 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Portfolio</h1>
+        <h1>Day Cycle Animation</h1>
         <p>
-          My portfolio website is a comprehensive showcase of my professional
-          journey and expertise, meticulously crafted using HTML, CSS,
-          Bootstrap, and JavaScript.
+          I created an animation depicting a day cycle, featuring sunrise,
+          sunset, moonrise, and moonset effects using HTML and CSS animations.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[8]} loading="lazy"/>
+        <img src={images[2]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>#HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #Javascript</p>
+        <p>#HTML &nbsp; #CSS </p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
               window.open(
-                "https://prakash-200.github.io/My-Portfolio/",
-                "_blank"
-              )
-            }
-          >
-            Visit
-          </button>
-          <a href="https://github.com/prakash-200/My-Portfolio" target="_blank">
-            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
-          </a>
-        </div>
-      </div>
-    ),
-  },
-
-  {
-    frontContent: (
-      <div>
-        <h1>Oppo E-Store</h1>
-        <p>
-          The Oppo e-commerce application is a sophisticated platform developed
-          to facilitate the purchase of Oppo brand mobile phones. Built using
-          the MERN stack (MongoDB, Express.js, React, and Node.js)
-        </p>
-      </div>
-    ),
-    backContent: (
-      <div>
-        <img src={images[9]} loading="lazy"/>
-        <center>
-          <hr />
-        </center>
-        <p>#MERN &nbsp; #Bootstrap</p>
-        <div className="pjt-card-btn">
-          <button
-            onClick={() =>
-              window.open(
-                "https://github.com/prakash-200/OPPO-ECommerce",
+                "https://prakash-200.github.io/Day-Lifecycle/",
                 "_blank"
               )
             }
@@ -391,7 +375,7 @@ const cards = [
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/OPPO-ECommerce"
+            href="https://github.com/prakash-200/Day-Lifecycle"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -404,30 +388,33 @@ const cards = [
   {
     frontContent: (
       <div>
-        <h1>Google Clone</h1>
+        <h1>Firebase API Integration</h1>
         <p>
-          Developed a Google search engine clone using React and integrated with
-          the Google API.
+          I successfully integrated Firebase API to enable seamless user login
+          and registration functionalities.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[10]} loading="lazy"/>
+        <img src={images[4]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>#React &nbsp; #Tailwind CSS &nbsp; #Google API</p>
+        <p>#Firease API &nbsp; #HTML &nbsp; #CSS &nbsp; #TypeScript</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open("https://prakashrajgc.web.app/", "_blank")
+              window.open(
+                "https://github.com/prakash-200/loginRegister",
+                "_blank"
+              )
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/OPPO-ECommerce"
+            href="https://github.com/prakash-200/loginRegister"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -436,33 +423,38 @@ const cards = [
       </div>
     ),
   },
+
   {
     frontContent: (
       <div>
-        <h1>POS</h1>
+        <h1>Netflix Clone</h1>
         <p>
-          POS project using React, featuring item management, inventory
-          tracking, and a billing page with stock checks and sales record.
+          I developed a Netflix clone web application using Angular and
+          integrated Firebase API for user authentication and session
+          management.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[11]} loading="lazy"/>
+        <img src={images[5]} loading="lazy"/>
         <center>
           <hr />
         </center>
-        <p>$React &nbsp; #Redux-persist &nbsp; #Bootstrap</p>
+        <p>#Angular &nbsp; #Firebase API &nbsp; #Bootstrap</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open("https://pos-react.netlify.app", "_blank")
+              window.open(
+                "https://github.com/prakash-200/NETFLIX-CLONE1",
+                "_blank"
+              )
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/OPPO-ECommerce"
+            href="https://github.com/prakash-200/NETFLIX-CLONE1"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -471,34 +463,149 @@ const cards = [
       </div>
     ),
   },
+
   {
     frontContent: (
       <div>
-        <h1>Kanban Board</h1>
+        <h1>Calculator</h1>
         <p>
-          Kanban board using React JS with the DND package, allowing CRUD
-          operations and task management. The board includes features like drop
-          and draggable tasks.
+          I developed a calculator app using HTML, CSS, JavaScript, and
+          Bootstrap. This app provides a user-friendly interface with responsive
+          design.
         </p>
       </div>
     ),
     backContent: (
       <div>
-        <img src={images[12]} loading="lazy"/>
+        <img src={images[0]} loading="lazy" />
         <center>
           <hr />
         </center>
-        <p>React &nbsp; #Bootstrap</p>
+        <p>#HTML &nbsp; #CSS &nbsp; #JavaScript</p>
         <div className="pjt-card-btn">
           <button
             onClick={() =>
-              window.open("https://kanbandb.netlify.app/", "_blank")
+              window.open("https://prakash-200.github.io/Calculator/", "_blank")
+            }
+          >
+            Visit
+          </button>
+          <a href="https://github.com/prakash-200/Calculator" target="_blank">
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Laravel CRUD App</h1>
+        <p>
+          I developed a project to perform CRUD operations using the Laravel
+          framework. This project demonstrates my ability to create, read,
+          update, and delete records efficiently.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[1]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>
+          #Laravel &nbsp; #HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #JavaScript
+        </p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open(
+                "https://github.com/prakash-200/LARAVEL-CRUD",
+                "_blank"
+              )
+            }
+          >
+            Visit
+          </button>
+          <a href="https://github.com/prakash-200/LARAVEL-CRUD" target="_blank">
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Yamaha Resposive Site</h1>
+        <p>
+          I developed a responsive site to advertise Yamaha brand bikes using
+          HTML, CSS, JavaScript, and Bootstrap. The site is designed to be
+          visually appealing and user-friendly across all devices.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[7]} loading="lazy"/>
+        <center>
+          <hr />
+        </center>
+        <p>#HTML &nbsp; #CSS &nbsp; #Bootstrap &nbsp; #JavaScript </p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open(
+                "https://prakash-200.github.io/Yamaha_Site/",
+                "_blank"
+              )
+            }
+          >
+            Visit
+          </button>
+          <a href="https://github.com/prakash-200/Yamaha_Site" target="_blank">
+            <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
+          </a>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    frontContent: (
+      <div>
+        <h1>Static Resume</h1>
+        <p>
+          I have developed a static resume to showcase my skills, academic
+          background, projects, and more. This resume is built using HTML for
+          structure and CSS for styling, ensuring a clean and professional
+          presentation.
+        </p>
+      </div>
+    ),
+    backContent: (
+      <div>
+        <img src={images[6]} loading="lazy"/>
+        <center>
+          <hr style={{ color: "white" }} />
+        </center>
+        <p>#HTML &nbsp; #CSS &nbsp; #Responsive</p>
+        <div className="pjt-card-btn">
+          <button
+            onClick={() =>
+              window.open(
+                "https://prakash-200.github.io/Resume_using_HTML_CSS/",
+                "_blank"
+              )
             }
           >
             Visit
           </button>
           <a
-            href="https://github.com/prakash-200/OPPO-ECommerce"
+            href="https://github.com/prakash-200/Resume_using_HTML_CSS"
             target="_blank"
           >
             <FaGithub style={{ color: "#ffff", fontSize: "200%" }} />
@@ -507,6 +614,7 @@ const cards = [
       </div>
     ),
   },
+  
 ];
 
 function Project() {
