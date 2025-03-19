@@ -110,7 +110,7 @@ function Dashboard() {
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 30, delay: .3 }}>
                         <div className='h-100 d-flex flex-column justify-content-between'>
-                    <Link to='/exp' className={toggle ? 'font-lg db-vertical2 font-lg db-btn-hover px-3 db-text-style text-dark text-decoration-none' : ' py-5 db-vertical2 font-sm db-btn-hover db-text-style px-3  text-decoration-none color'}>career</Link>
+                    <Link to='/exp' className={toggle ? 'font-lg db-vertical2 font-lg db-btn-hover px-3 db-text-style text-dark text-decoration-none' : ' py-5 db-vertical2 font-sm db-btn-hover db-text-style px-3  text-decoration-none color'}>Career</Link>
                     <Link to='/' onClick={() => window.alert("Currently not available!")} className={toggle ? 'font-lg db-vertical2 font-lg db-btn-hover px-3 db-text-style text-dark text-decoration-none' : ' py-5 db-vertical2 font-sm db-btn-hover db-text-style px-3  text-decoration-none color'}>Feats</Link>
                         </div>
                 </motion.div>

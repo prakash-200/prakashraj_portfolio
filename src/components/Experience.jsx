@@ -105,6 +105,7 @@ function Experience() {
                 background:
                   item.type === "work" ? "#FCF6F4" : "rgb(233, 30, 99)",
                 color: "#fff",
+                padding: '0px'
               }}
               contentArrowStyle={{
                 borderRight: `7px solid ${
@@ -116,19 +117,20 @@ function Experience() {
               lineColor={""}
               icon={<MdWork />}
             >
+              <div className="cont">
               <div className="row">
                 <div className="col">
-                  <h3 className="vertical-timeline-element-title text-dark">
+                  <h3 className="vertical-timeline-element-title">
                     {item.title}
                   </h3>
                 </div>
                 <div className="col">
-                  <h6 className="vertical-timeline-element-title text-dark place">
+                  <h6 className="vertical-timeline-element-title place">
                     {item.subtitle}
                   </h6>
                 </div>
               </div>
-              <h6 className="vertical-timeline-element-subtitle d-flex text-dark company">
+              <h6 className="vertical-timeline-element-subtitle d-flex company">
                 <HiBuildingOffice2 />
                 &nbsp;
                 <span>{item.company}</span>
@@ -153,6 +155,7 @@ function Experience() {
                   boxShadow: "rgba(0, 0, 0, 0.4) 3px 3px",
                 }}
               />
+              </div>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
