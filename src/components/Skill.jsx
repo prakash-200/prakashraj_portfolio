@@ -124,7 +124,7 @@ function Skill() {
                 I love to leverage technology to solve real-world problems by creating innovative and efficient software solutions.
               </p>
               <p className="skl-ff2">I LIKE TO CODE IN</p>
-              <p className="skl-ff">Java, JavaScript, MySQL</p>
+              <p className="skl-ff">Java, C#, ASP.NET Core, JavaScript, MySQL, MongoDB</p>
               <p className="skl-ff2">AUTOMATION</p>
               <p className="skl-ff">Zapier, Make.com, Python</p>
               <p className="skl-ff2">TOOLS</p>
