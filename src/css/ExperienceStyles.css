@@ -6,8 +6,7 @@
 }
 
 .points{
-    font-family: "Lora", serif;
-  font-optical-sizing: auto;
+  font-family: "Lora", serif;
   font-style: normal;
   color: black;
 }
@@ -24,7 +23,7 @@ h3{
     color: black;
 }
 
-h6{
+.vertical-timeline-element-subtitle{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     color: black;
@@ -67,10 +66,12 @@ ul {
     }
 }
 
-.vertical-timeline-element:hover .vertical-timeline-element-title,
-.vertical-timeline-element:hover .vertical-timeline-element-subtitle,
-.vertical-timeline-element:hover .vertical-timeline-element-subtitle .company,
-.vertical-timeline-element:hover .points,
-.company span:hover {
-  color: white;  /* Change all text elements to white */
+.cont:hover{
+    ul .points, 
+    .vertical-timeline-element-title,
+    .vertical-timeline-element-subtitle,
+    .vertical-timeline-element-subtitle .company,
+    .itemCompany:hover{
+        color: white;  
+      }
 }

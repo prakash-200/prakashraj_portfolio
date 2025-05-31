@@ -130,11 +130,11 @@ function Experience() {
                   </h6>
                 </div>
               </div>
-              <h6 className="vertical-timeline-element-subtitle d-flex company">
+              <div className="vertical-timeline-element-subtitle align-items-center d-flex company">
                 <HiBuildingOffice2 />
                 &nbsp;
-                <span>{item.company}</span>
-              </h6>
+                <p className="fs-6 fw-bold p-0 m-0">{item.company}</p>
+              </div>
               <ul className="text-dark mb-2">
                 {item.description.map((desc, index) => (
                   <li
